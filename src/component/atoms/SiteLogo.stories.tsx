@@ -11,7 +11,7 @@ export default {
 } as ComponentMeta<typeof SiteLogo>;
 
 const Template: ComponentStory<typeof SiteLogo> = () => {
-  return <SiteLogo />;
+  return <SiteLogo color="#123" />;
 };
 
 export const Normal = Template.bind({});
