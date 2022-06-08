@@ -8,7 +8,10 @@ export const pagesPath = {
 export type PagesPath = typeof pagesPath
 
 export const staticPath = {
-  favicon_ico: '/favicon.ico'
+  favicon_ico: '/favicon.ico',
+  img: {
+    ramen_jpg: '/img/ramen.jpg'
+  }
 } as const
 
 export type StaticPath = typeof staticPath

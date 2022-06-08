@@ -1,7 +1,6 @@
 import type { FC } from "react";
+import { SiteLogo } from "src/component/atoms/Svg/SiteLogo";
 import { Button } from "src/component/Button";
-
-import { SiteLogo } from "@/component/atoms/Svg/SiteLogo";
 
 export const Index: FC = () => {
   const handleClick = () => {
