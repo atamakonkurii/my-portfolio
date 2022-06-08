@@ -4,5 +4,9 @@ type Props = {
 
 export const FirstViewSmallText = (props: Props) => {
   const { text } = props;
-  return <p className="text-xs text-white">{text}</p>;
+  return (
+    <div>
+      <p className="text-xs text-white">{text}</p>
+    </div>
+  );
 };
