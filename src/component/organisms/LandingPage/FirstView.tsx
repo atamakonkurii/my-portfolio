@@ -16,10 +16,10 @@ export const FirstView: FC = () => {
       <div className="pt-8 text-center">
         <FirstViewSmallText text={BaseFirstViewSmallText} />
       </div>
-      <div className="flex justify-center pt-4">
+      <div className="flex justify-center pt-8">
         <SiteLogo color={BaseSiteLogoColor} />
       </div>
-      <div className="pt-8 text-center">
+      <div className="pt-12 text-center">
         <CTAButton text={BaseCTAButtonText} />
       </div>
     </div>
