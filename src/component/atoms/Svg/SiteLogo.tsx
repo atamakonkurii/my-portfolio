@@ -1,16 +1,12 @@
 import type { FC } from "react";
 
 type Props = {
-  color?: string;
+  color: string;
   width?: number;
   height?: number;
 };
 
-export const SiteLogo: FC<Props> = ({
-  color = "#ffffff",
-  height = 164,
-  width = 283,
-}) => {
+export const SiteLogo: FC<Props> = ({ color, height = 164, width = 283 }) => {
   return (
     <div>
       <svg

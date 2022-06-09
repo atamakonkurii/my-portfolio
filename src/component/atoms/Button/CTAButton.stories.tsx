@@ -1,6 +1,7 @@
 import type { ComponentMeta, ComponentStory } from "@storybook/react";
 // eslint-disable-next-line no-restricted-imports
 import React from "react";
+import { BaseCTAButtonText } from "src/constants/baseText";
 
 import { CTAButton } from "./CTAButton";
 
@@ -11,7 +12,7 @@ export default {
 } as ComponentMeta<typeof CTAButton>;
 
 const Template: ComponentStory<typeof CTAButton> = () => {
-  return <CTAButton text="とにかくおごる！" />;
+  return <CTAButton text={BaseCTAButtonText} />;
 };
 
 export const Normal = Template.bind({});
