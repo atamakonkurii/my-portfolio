@@ -7,7 +7,7 @@ export const AboutSite = () => {
   return (
     <div className="container mx-auto w-11/12 max-w-3xl">
       <LandingPageTitle text={BaseAboutSiteTitle} />
-      <img src="/img/ramen.jpg" className="mx-auto max-h-96" />
+      <img src="/img/ramen.jpg" className="pt-4 mx-auto" />
       <div className="pt-8 text-sm">
         <p>
           このサイトは太田和希のポートフォリオ機能を持ったおごられサイト?です。
