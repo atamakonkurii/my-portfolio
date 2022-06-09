@@ -5,7 +5,7 @@ export const News = () => {
   return (
     <div className="container mx-auto w-11/12 max-w-3xl">
       <LandingPageTitle text={BaseGoodForUsTitle} />
-      <div className="pt-8 text-sm">
+      <div className="pt-2 text-sm">
         <p>おごっていただく方にいいことは特にありません。</p>
         <p>作者のもっとおもしろいものを作るモチベーションになります。</p>
         <p>

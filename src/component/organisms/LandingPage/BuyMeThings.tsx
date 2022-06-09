@@ -1,11 +1,11 @@
 import { LandingPageTitle } from "src/component/atoms/Text/LandingPageTitle";
-import { BaseGoodForUsTitle } from "src/constants/baseText";
+import { BaseBuyMeThingsTitle } from "src/constants/baseText";
 
 export const BuyMeThings = () => {
   return (
     <div className="container mx-auto w-11/12 max-w-3xl">
-      <LandingPageTitle text={BaseGoodForUsTitle} />
-      <div className="pt-8 text-sm">
+      <LandingPageTitle text={BaseBuyMeThingsTitle} />
+      <div className="pt-2 text-sm">
         <p>おごっていただく方にいいことは特にありません。</p>
         <p>作者のもっとおもしろいものを作るモチベーションになります。</p>
         <p>
