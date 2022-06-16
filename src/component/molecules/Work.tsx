@@ -7,11 +7,15 @@ type Props = {
 export const Work = (props: Props) => {
   const { imageUrl, text, title } = props;
   return (
-    <div className="flex">
-      <img src={imageUrl} className="object-cover w-28 h-28" />
-      <div className="pt-4">
-        <p className="text-xs">{title}</p>
-        <p className="text-xs">{text}</p>
+    <div className="flex mx-auto max-w-md h-32 bg-white rounded-lg shadow-sm">
+      <img
+        src={imageUrl}
+        className="object-cover my-auto ml-6 w-28 h-28"
+        alt="ramen"
+      />
+      <div className="mt-4 ml-4">
+        <p className="text-2xl font-semibold">{title}</p>
+        <p className="pt-1 text-sm">{text}</p>
       </div>
     </div>
   );

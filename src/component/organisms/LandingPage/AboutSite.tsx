@@ -1,7 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable jsx-a11y/alt-text */
+import { SimpleLinkButton } from "src/component/atoms/Button/SimpleLinkButton";
 import { LandingPageTitle } from "src/component/atoms/Text/LandingPageTitle";
-import { BaseAboutSiteTitle } from "src/constants/baseText";
+import {
+  AboutSiteButtonLink,
+  AboutSiteButtonText,
+  BaseAboutSiteTitle,
+} from "src/constants/baseText";
 
 export const AboutSite = () => {
   return (
@@ -23,6 +28,12 @@ export const AboutSite = () => {
           </a>
           を利用しています。
         </p>
+      </div>
+      <div className="pt-4 text-center">
+        <SimpleLinkButton
+          text={AboutSiteButtonText}
+          href={AboutSiteButtonLink}
+        />
       </div>
     </div>
   );

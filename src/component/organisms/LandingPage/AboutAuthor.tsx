@@ -1,7 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable jsx-a11y/alt-text */
+import { SimpleLinkButton } from "src/component/atoms/Button/SimpleLinkButton";
 import { LandingPageTitle } from "src/component/atoms/Text/LandingPageTitle";
-import { BaseAboutAuthorTitle } from "src/constants/baseText";
+import {
+  AboutAuthorButtonLink,
+  AboutAuthorButtonText,
+  BaseAboutAuthorTitle,
+} from "src/constants/baseText";
 
 export const AboutAuthor = () => {
   return (
@@ -29,6 +34,12 @@ export const AboutAuthor = () => {
         Rails / Next.js / TypeScript / SwiftUI / AWS / supabase / Cloudflare /
         Vercel / microCMS / GitHub Actions / Figma...
       </p>
+      <div className="pt-6 text-center">
+        <SimpleLinkButton
+          text={AboutAuthorButtonText}
+          href={AboutAuthorButtonLink}
+        />
+      </div>
     </div>
   );
 };
