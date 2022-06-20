@@ -2,16 +2,16 @@ import type { ComponentMeta, ComponentStory } from "@storybook/react";
 // eslint-disable-next-line no-restricted-imports
 import React from "react";
 
-import { Title } from "./Title";
+import { PlanButton } from "./PlanButton";
 
 // eslint-disable-next-line import/no-default-export
 export default {
-  title: "Atoms/Title",
-  component: Title,
-} as ComponentMeta<typeof Title>;
+  title: "Atoms/Button/PlanButton",
+  component: PlanButton,
+} as ComponentMeta<typeof PlanButton>;
 
-const Template: ComponentStory<typeof Title> = () => {
-  return <Title title="こんにちは" />;
+const Template: ComponentStory<typeof PlanButton> = () => {
+  return <PlanButton text={"コーヒーを奢る"} />;
 };
 
 export const Normal = Template.bind({});
