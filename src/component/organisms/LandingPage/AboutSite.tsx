@@ -10,7 +10,7 @@ import {
 
 export const AboutSite = () => {
   return (
-    <div className="container mx-auto w-11/12 max-w-3xl">
+    <div className="container mx-auto w-11/12 max-w-lg">
       <LandingPageTitle text={BaseAboutSiteTitle} />
       <img src="/img/ramen.jpg" className="pt-4 mx-auto" />
       <div className="pt-4 text-sm">

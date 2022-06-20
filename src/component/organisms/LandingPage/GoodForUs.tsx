@@ -3,7 +3,7 @@ import { BaseGoodForUsTitle } from "src/constants/baseText";
 
 export const GoodForUs = () => {
   return (
-    <div className="container mx-auto w-11/12 max-w-3xl">
+    <div className="container mx-auto w-11/12 max-w-lg">
       <LandingPageTitle text={BaseGoodForUsTitle} />
       <div className="pt-2 text-sm">
         <p>おごっていただく方にいいことは特にありません。</p>

@@ -1,16 +1,31 @@
 import { LandingPageTitle } from "src/component/atoms/Text/LandingPageTitle";
+import { Plan } from "src/component/molecules/Plan";
 import { BaseBuyMeThingsTitle } from "src/constants/baseText";
 
 export const BuyMeThings = () => {
   return (
-    <div className="container mx-auto w-11/12 max-w-3xl">
+    <div className="container mx-auto w-11/12 max-w-lg">
       <LandingPageTitle text={BaseBuyMeThingsTitle} />
       <div className="pt-2 text-sm">
-        <p>おごっていただく方にいいことは特にありません。</p>
-        <p>作者のもっとおもしろいものを作るモチベーションになります。</p>
-        <p>
-          おごりだけじゃなく、SNSへのシェアや、こんなサイトあったよ〜と飲み会等で話していただくことも大変嬉しいです。気軽に是非、よろしくお願いします！
-        </p>
+        <Plan
+          price={"¥1,000"}
+          imageUrl={"/img/ramen.jpg"}
+          title={"コーヒー代"}
+        />
+        <div className="pt-2">
+          <Plan
+            price={"¥1,000"}
+            imageUrl={"/img/ramen.jpg"}
+            title={"コーヒー代"}
+          />
+        </div>
+        <div className="pt-2">
+          <Plan
+            price={"¥1,000"}
+            imageUrl={"/img/ramen.jpg"}
+            title={"コーヒー代"}
+          />
+        </div>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ import {
 
 export const AboutAuthor = () => {
   return (
-    <div className="container mx-auto w-11/12 max-w-3xl">
+    <div className="container mx-auto w-11/12 max-w-lg">
       <LandingPageTitle text={BaseAboutAuthorTitle} />
       <img src="/img/ramen.jpg" className="pt-4 mx-auto" />
       <p className="pt-4 text-xl font-medium">太田 和希</p>

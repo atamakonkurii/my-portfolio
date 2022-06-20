@@ -9,7 +9,7 @@ import {
 
 export const Portfolio = () => {
   return (
-    <div className="container mx-auto w-11/12 max-w-3xl">
+    <div className="container mx-auto w-11/12 max-w-lg">
       <LandingPageTitle text={BasePortfolioTitle} />
       <div className="pt-4">
         <Work
