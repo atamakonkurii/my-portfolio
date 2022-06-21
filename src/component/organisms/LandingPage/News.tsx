@@ -1,16 +1,27 @@
-import { LandingPageTitle } from "src/component/atoms/Text/LandingPageTitle";
-import { BaseGoodForUsTitle } from "src/constants/baseText";
+import { NewsElement } from "src/component/molecules/NewsElement";
+import {
+  BaseNewsDate,
+  BaseNewsTitle,
+  BaseNewsType,
+} from "src/constants/baseText";
 
 export const News = () => {
   return (
     <div className="container mx-auto w-11/12 max-w-lg">
-      <LandingPageTitle text={BaseGoodForUsTitle} />
-      <div className="pt-2 text-sm">
-        <p>おごっていただく方にいいことは特にありません。</p>
-        <p>作者のもっとおもしろいものを作るモチベーションになります。</p>
-        <p>
-          おごりだけじゃなく、SNSへのシェアや、こんなサイトあったよ〜と飲み会等で話していただくことも大変嬉しいです。気軽に是非、よろしくお願いします！
-        </p>
+      <div className="hover:opacity-50">
+        <NewsElement
+          date={BaseNewsDate}
+          typeOfNews={BaseNewsType}
+          title={BaseNewsTitle}
+        />
+      </div>
+      <div className="flex justify-center mt-4 hover:opacity-50">
+        <a
+          href="https://www.google.co.jp/"
+          className="text-sm text-blue-600 underline underline-offset-1"
+        >
+          過去のお知らせ
+        </a>
       </div>
     </div>
   );

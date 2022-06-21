@@ -3,6 +3,11 @@ export const BaseFirstViewSmallText =
   "おごられたいを前面に出したポートフォリオサイト";
 export const BaseCTAButtonText = "とりあえずおごる！";
 
+// News
+export const BaseNewsDate = "20202/6/6";
+export const BaseNewsType = "新機能";
+export const BaseNewsTitle = "おごり機能をリリースしました。";
+
 // GoodForUs
 export const BaseGoodForUsTitle = "おごるといいことある?";
 
