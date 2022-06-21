@@ -11,7 +11,7 @@ export const LandingPage = () => {
   return (
     <div>
       <FirstView />
-      <div className="bg-slate-50">
+      <div className="pb-8 bg-slate-50">
         <div className="pt-8">
           <News />
         </div>
@@ -19,7 +19,7 @@ export const LandingPage = () => {
         {/* <div className="pt-8">
           <GoodForUs />
         </div> */}
-        <div className="pt-16">
+        <div className="pt-12">
           <AboutSite />
         </div>
         <div className="pt-16">

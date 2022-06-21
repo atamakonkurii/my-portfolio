@@ -13,7 +13,7 @@ const App: CustomAppPage = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <title>nexst</title>
+        <title>おごってください！</title>
       </Head>
       {getLayout(<Component {...pageProps} />)}
     </>
