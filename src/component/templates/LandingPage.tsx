@@ -2,7 +2,6 @@ import {
   AboutSite,
   BuyMeThings,
   FirstView,
-  GoodForUs,
   News,
   Portfolio,
 } from "src/component/organisms/LandingPage";
@@ -13,12 +12,13 @@ export const LandingPage = () => {
     <div>
       <FirstView />
       <div className="bg-slate-50">
-        <div className="pt-16">
+        <div className="pt-8">
           <News />
         </div>
-        <div className="pt-16">
+        {/* とりあえずいらないと思ったのでコメントアウト。場合によっては復活するかも？ */}
+        {/* <div className="pt-8">
           <GoodForUs />
-        </div>
+        </div> */}
         <div className="pt-16">
           <AboutSite />
         </div>
