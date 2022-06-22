@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import { NewsType } from "src/component/atoms/Text/NewsType";
 
 type Props = {
@@ -9,7 +10,7 @@ type Props = {
 export const NewsElement = (props: Props) => {
   const { date, title, typeOfNews } = props;
   return (
-    <a href="https://www.google.co.jp/" className="flex">
+    <a href="/no_page" className="flex">
       <div className="text-sm font-semibold">{date}</div>
       <div className="pl-2">
         <NewsType typeOfNews={typeOfNews} />

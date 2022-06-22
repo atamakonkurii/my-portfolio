@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import { NewsElement } from "src/component/molecules/NewsElement";
 import {
   BaseNewsDate,
@@ -17,7 +18,7 @@ export const News = () => {
       </div>
       <div className="flex justify-center mt-4 hover:opacity-50">
         <a
-          href="https://www.google.co.jp/"
+          href="/no_page"
           className="text-sm text-blue-600 underline underline-offset-1"
         >
           過去のお知らせ
