@@ -1,4 +1,5 @@
-/* eslint-disable @next/next/no-html-link-for-pages */
+import Link from "next/link";
+
 export const NoPageContainer = () => {
   return (
     <div className="pt-16">
@@ -11,12 +12,17 @@ export const NoPageContainer = () => {
         alt="inu"
         width={300}
       />
-      <a
+      <Link href="/">
+        <a className="flex justify-center pt-4 pb-8 text-xl font-bold text-blue-500 hover:opacity-50">
+          ホームに戻る
+        </a>
+      </Link>
+      {/* <a
         href="/"
         className="flex justify-center pt-4 pb-8 text-xl font-bold text-blue-500 hover:opacity-50"
       >
         ホームに戻る
-      </a>
+      </a> */}
     </div>
   );
 };
