@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { FC } from "react";
 import { SiteLogo } from "src/component/atoms/Svg/SiteLogo";
 
@@ -7,19 +8,27 @@ export const StandardFooter: FC = () => {
       <div className="pt-8 pl-8 text-sm text-white">
         <SiteLogo color={"white"} height={40} width={70} />
         <div className="pt-6 ">
-          <a href="https://www.google.com/?hl=ja">お問合せ</a>
+          <Link href="/no_page">
+            <a>お問合せ</a>
+          </Link>
         </div>
 
         <div className="pt-4">
-          <a href="https://www.google.com/?hl=ja">利用規約</a>
+          <Link href="/no_page">
+            <a>利用規約</a>
+          </Link>
         </div>
 
         <div className="pt-4">
-          <a href="https://www.google.com/?hl=ja">プライバシーポリシー</a>
+          <Link href="/no_page">
+            <a>プライバシーポリシー</a>
+          </Link>
         </div>
 
         <div className="pt-4">
-          <a href="https://www.google.com/?hl=ja">特定商取引法に基づく表記</a>
+          <Link href="/no_page">
+            <a>特定商取引法に基づく表記</a>
+          </Link>
         </div>
 
         <div className="py-4 pr-4 text-xs text-right">

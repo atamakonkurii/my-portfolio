@@ -7,10 +7,9 @@ export const PlanButton = (props: Props) => {
   return (
     <div>
       <a
-        href="https://www.google.co.jp/"
+        href="/no_page"
         className="py-3 px-8 font-bold text-white bg-rose-500 hover:bg-rose-400 rounded-full hover:border-rose-600"
         target="_blank"
-        rel="noreferrer"
       >
         {text}
       </a>
