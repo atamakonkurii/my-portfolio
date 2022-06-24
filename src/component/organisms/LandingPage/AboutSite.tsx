@@ -12,7 +12,7 @@ export const AboutSite = () => {
   return (
     <div className="container mx-auto w-11/12 max-w-lg">
       <LandingPageTitle text={BaseAboutSiteTitle} />
-      <img src="/img/ramen.jpg" className="pt-4 mx-auto" />
+      <img src="/img/jamstack_stripe_logo.png" className="pt-4 mx-auto" />
       <div className="pt-4 text-sm">
         <p>
           このサイトは太田和希のポートフォリオ機能を持ったおごられサイト?です。
@@ -29,7 +29,7 @@ export const AboutSite = () => {
           を利用しています。
         </p>
       </div>
-      <div className="pt-4 text-center">
+      <div className="pt-8 text-center">
         <SimpleLinkButton
           text={AboutSiteButtonText}
           href={AboutSiteButtonLink}

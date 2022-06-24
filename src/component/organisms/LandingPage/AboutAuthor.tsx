@@ -12,7 +12,7 @@ export const AboutAuthor = () => {
   return (
     <div className="container mx-auto w-11/12 max-w-lg">
       <LandingPageTitle text={BaseAboutAuthorTitle} />
-      <img src="/img/ramen.jpg" className="pt-4 mx-auto" />
+      <img src="/img/my_image.jpg" className="pt-4 mx-auto" />
       <p className="pt-4 text-xl font-medium">太田 和希</p>
       <p className="text-xs">Ohta Kazuki</p>
       <p className="pt-2 text-base font-medium">Webエンジニア / YouTuber</p>
@@ -34,7 +34,7 @@ export const AboutAuthor = () => {
         Rails / Next.js / TypeScript / SwiftUI / AWS / supabase / Cloudflare /
         Vercel / microCMS / GitHub Actions / Figma...
       </p>
-      <div className="pt-6 text-center">
+      <div className="pt-8 text-center">
         <SimpleLinkButton
           text={AboutAuthorButtonText}
           href={AboutAuthorButtonLink}
