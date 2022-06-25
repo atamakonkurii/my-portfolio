@@ -6,10 +6,15 @@ export const StandardFooter: FC = () => {
   return (
     <footer className="bg-black">
       <div className="pt-8 pl-8 text-sm text-white">
-        <SiteLogo color={"white"} height={40} width={70} />
+        <Link href="/">
+          <a>
+            <SiteLogo color={"white"} height={40} width={70} />
+          </a>
+        </Link>
+
         <div className="pt-6 ">
-          <Link href="/no_page">
-            <a>お問合せ</a>
+          <Link href="https://forms.gle/Y9EcWWkQdEh2Vf1x5">
+            <a target="_blank">お問い合わせ</a>
           </Link>
         </div>
 
