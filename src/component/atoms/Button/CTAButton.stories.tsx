@@ -12,7 +12,7 @@ export default {
 } as ComponentMeta<typeof CTAButton>;
 
 const Template: ComponentStory<typeof CTAButton> = () => {
-  return <CTAButton text={BaseCTAButtonText} />;
+  return <CTAButton text={BaseCTAButtonText} paymentLink={"/no_page"} />;
 };
 
 export const Normal = Template.bind({});

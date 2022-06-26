@@ -12,7 +12,12 @@ export default {
 
 const Template: ComponentStory<typeof Plan> = () => {
   return (
-    <Plan price={"¥1,000"} imageUrl={"/img/ramen.jpg"} title={"コーヒー代"} />
+    <Plan
+      price={"¥1,000"}
+      imageUrl={"/img/ramen.jpg"}
+      title={"コーヒー代"}
+      paymentLink={"/no_page"}
+    />
   );
 };
 
