@@ -11,7 +11,7 @@ export default {
 } as ComponentMeta<typeof PlanButton>;
 
 const Template: ComponentStory<typeof PlanButton> = () => {
-  return <PlanButton text={"コーヒーを奢る"} />;
+  return <PlanButton text={"コーヒーを奢る"} paymentLink={"/no_page"} />;
 };
 
 export const Normal = Template.bind({});

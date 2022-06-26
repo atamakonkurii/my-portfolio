@@ -12,7 +12,7 @@ export const StandardFooter: FC = () => {
           </a>
         </Link>
 
-        <div className="pt-6 ">
+        <div className="pt-6">
           <Link href="https://forms.gle/Y9EcWWkQdEh2Vf1x5">
             <a target="_blank">お問い合わせ</a>
           </Link>
