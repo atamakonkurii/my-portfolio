@@ -4,10 +4,11 @@ type Props = {
   imageUrl: string;
   title: string;
   price: string;
+  paymentLink: string;
 };
 
 export const Plan = (props: Props) => {
-  const { imageUrl, price, title } = props;
+  const { imageUrl, paymentLink, price, title } = props;
   return (
     <div className="mx-auto max-w-sm h-56 bg-white rounded-lg shadow-sm">
       <div className="flex justify-center pt-4">
@@ -22,7 +23,7 @@ export const Plan = (props: Props) => {
         </div>
       </div>
       <div className="flex justify-center mt-6 text-xl">
-        <PlanButton text={"コーヒーを奢る"} />
+        <PlanButton text={`${title}をおごる`} paymentLink={paymentLink} />
       </div>
       <div className="flex justify-center mt-4 text-sm text-slate-400">
         他の用途にお金を使う場合もあります。

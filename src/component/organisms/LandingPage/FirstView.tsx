@@ -20,7 +20,10 @@ export const FirstView: FC = () => {
         <SiteLogo color={BaseSiteLogoColor} />
       </div>
       <div className="pt-12 text-center">
-        <CTAButton text={BaseCTAButtonText} />
+        <CTAButton
+          text={BaseCTAButtonText}
+          paymentLink={"https://buy.stripe.com/5kAbK48hY1Xa3gQ3cd"}
+        />
       </div>
     </div>
   );
