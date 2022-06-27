@@ -25,13 +25,13 @@ export const StandardFooter: FC = () => {
         </div>
 
         <div className="pt-4">
-          <Link href="/no_page">
+          <Link href="/privacy_policy">
             <a>プライバシーポリシー</a>
           </Link>
         </div>
 
         <div className="pt-4">
-          <Link href="/no_page">
+          <Link href="/specific_commercial_transaction">
             <a>特定商取引法に基づく表記</a>
           </Link>
         </div>
