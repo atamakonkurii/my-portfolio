@@ -1,24 +1,14 @@
-import type { GetStaticProps } from "next";
 import type { FC } from "react";
 import { LandingPage } from "src/component/templates/LandingPage";
-import { microCmsClient } from "src/lib/microCmsClient";
+import type { IndexPageNews } from "src/type/types";
 
-export const Index: FC = () => {
+type Props = IndexPageNews;
+
+export const Index: FC<Props> = (props) => {
+  const indexPageNews = props;
   return (
     <div>
-      <LandingPage />
+      <LandingPage {...indexPageNews} />
     </div>
   );
-};
-
-export const getStaticProps: GetStaticProps = async () => {
-  const data = await microCmsClient.get({
-    endpoint: "news",
-    contentId: "fqu2y_4ut7zv",
-  });
-  return {
-    props: {
-      news: data.id,
-    },
-  };
 };

@@ -1,3 +1,4 @@
+import type { FC } from "react";
 import {
   AboutSite,
   BuyMeThings,
@@ -6,14 +7,18 @@ import {
   Portfolio,
 } from "src/component/organisms/LandingPage";
 import { AboutAuthor } from "src/component/organisms/LandingPage/AboutAuthor";
+import type { IndexPageNews } from "src/type/types";
 
-export const LandingPage = () => {
+type Props = IndexPageNews;
+
+export const LandingPage: FC<Props> = (props) => {
+  const indexPageNews = props;
   return (
     <div>
       <FirstView />
       <div className="pb-8 bg-slate-50">
         <div className="pt-8">
-          <News />
+          <News {...indexPageNews} />
         </div>
         {/* とりあえずいらないと思ったのでコメントアウト。場合によっては復活するかも？ */}
         {/* <div className="pt-8">
