@@ -10,10 +10,7 @@ export const SimpleLinkButton = (props: Props) => {
   return (
     <div>
       <Link href={href}>
-        <a
-          className="py-3 px-8 font-bold hover:text-white hover:bg-black rounded-full border-2 border-black"
-          target="_blank"
-        >
+        <a className="py-3 px-8 font-bold hover:text-white hover:bg-black rounded-full border-2 border-black">
           {text}
         </a>
       </Link>
