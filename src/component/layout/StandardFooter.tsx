@@ -19,7 +19,7 @@ export const StandardFooter: FC = () => {
         </div>
 
         <div className="pt-4">
-          <Link href="/no_page">
+          <Link href="/term">
             <a>利用規約</a>
           </Link>
         </div>

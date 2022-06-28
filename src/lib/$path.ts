@@ -11,6 +11,9 @@ export const pagesPath = {
   "specific_commercial_transaction": {
     $url: (url?: { hash?: string }) => ({ pathname: '/specific_commercial_transaction' as const, hash: url?.hash })
   },
+  "term": {
+    $url: (url?: { hash?: string }) => ({ pathname: '/term' as const, hash: url?.hash })
+  },
   $url: (url?: { hash?: string }) => ({ pathname: '/' as const, hash: url?.hash })
 }
 
