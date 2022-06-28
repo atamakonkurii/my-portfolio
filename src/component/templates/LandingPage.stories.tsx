@@ -1,6 +1,12 @@
 import type { ComponentMeta, ComponentStory } from "@storybook/react";
 // eslint-disable-next-line no-restricted-imports
 import React from "react";
+import {
+  BaseNewsDate,
+  BaseNewsTitle,
+  BaseNewsType,
+} from "src/constants/baseText";
+import type { IndexPageNews } from "src/type/types";
 
 import { LandingPage } from "./LandingPage";
 
@@ -10,8 +16,15 @@ export default {
   component: LandingPage,
 } as ComponentMeta<typeof LandingPage>;
 
+const indexPageNews: IndexPageNews = {
+  id: "test",
+  title: BaseNewsDate,
+  publishedAt: BaseNewsType,
+  categoryName: BaseNewsTitle,
+};
+
 const Template: ComponentStory<typeof LandingPage> = () => {
-  return <LandingPage />;
+  return <LandingPage {...indexPageNews} />;
 };
 
 export const Normal = Template.bind({});
