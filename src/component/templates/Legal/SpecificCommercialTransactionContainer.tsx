@@ -31,7 +31,7 @@ export const SpecificCommercialTransactionContainer = () => {
           pay
         </p>
         <p className="mt-2">
-          支払い時期：商品の購入時に決済させていただきます。ご請求日はご利用のクレジットカートの締め日や契約内容により異なります。ご利用のカード会社までお問合せください。
+          支払い時期：商品の購入時に決済させていただきます。ご請求日はご利用のクレジットカードの締め日や契約内容により異なります。ご利用のカード会社までお問合せください。
         </p>
       </div>
       <h2 className="mt-10 mb-2 text-xl font-semibold">
