@@ -1,3 +1,4 @@
+import { format } from "date-fns";
 import Link from "next/link";
 import type { FC } from "react";
 import { NewsElement } from "src/component/molecules/NewsElement";
@@ -12,11 +13,15 @@ type Props = IndexPageNews;
 
 export const News: FC<Props> = (props) => {
   const indexPageNews = props;
+  const date = format(
+    new Date(indexPageNews.publishedAt),
+    "yyyy/MM/dd"
+  ).toString();
   return (
     <div className="container mx-auto w-11/12 max-w-lg">
       <div className="hover:opacity-50">
         <NewsElement
-          date={indexPageNews.publishedAt || BaseNewsDate}
+          date={date || BaseNewsDate}
           typeOfNews={indexPageNews.categoryName || BaseNewsType}
           title={indexPageNews.title || BaseNewsTitle}
         />
