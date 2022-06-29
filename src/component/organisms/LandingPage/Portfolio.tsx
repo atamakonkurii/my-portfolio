@@ -14,15 +14,17 @@ export const Portfolio = () => {
       <div className="pt-4">
         <Work
           text={"スマホの画像で騙し合うゲーム"}
-          imageUrl={"/img/ramen.jpg"}
-          title={"写真人狼"}
+          imageUrl={"/img/character_hitsuji_ookami.png"}
+          title={"写真人狼(開発途中)"}
+          link={"https://github.com/atamakonkurii/photo-werewolf"}
         />
       </div>
       <div className="pt-2">
         <Work
-          text={"スマホの画像で騙し合うゲーム"}
-          imageUrl={"/img/ramen.jpg"}
-          title={"写真人狼"}
+          text={"日台情報を発信するブログ"}
+          imageUrl={"/img/dog1_smile.png"}
+          title={"日台one!"}
+          link={"https://nittai-one.com/"}
         />
       </div>
       <div className="pt-6 text-center">
