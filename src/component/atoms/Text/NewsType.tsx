@@ -8,6 +8,12 @@ const newsTypeColor = (typeOfNews: string) => {
     case "新機能":
       bgColor = "bg-amber-600";
       break;
+    case "障害":
+      bgColor = "bg-red-600";
+      break;
+    case "お知らせ":
+      bgColor = "bg-blue-500";
+      break;
     default:
       bgColor = "bg-neutral-700";
       break;
