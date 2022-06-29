@@ -51,7 +51,7 @@ export const PrivacyPolicyContainer = () => {
         href="https://marketingplatform.google.com/about/analytics/terms/jp/"
         className="pt-4 text-blue-500"
       >
-        https://marketingplatform.google.com/about/analytics/terms/jp/
+        Google アナリティクス利用規約
       </a>
       <h2 className="mt-16 mb-2 text-xl font-semibold">
         プライバシーポリシーの変更
