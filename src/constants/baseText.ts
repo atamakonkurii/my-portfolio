@@ -24,7 +24,7 @@ export const AboutAuthorButtonLink = "/no_page";
 // Portfolio
 export const BasePortfolioTitle = "今までの作品";
 export const PortfolioButtonText = "もっとみる";
-export const PortfolioButtonLink = "https://github.com/atamakonkurii";
+export const PortfolioButtonLink = "/no_page";
 
 // BuyMeThings
 export const BaseBuyMeThingsTitle = "おごりプラン";
