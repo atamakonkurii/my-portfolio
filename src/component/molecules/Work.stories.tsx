@@ -16,6 +16,7 @@ const Template: ComponentStory<typeof Work> = () => {
       text={"スマホの画像で騙し合うゲーム"}
       imageUrl={"/img/ramen.jpg"}
       title={"写真人狼"}
+      link={"https://www.google.co.jp/"}
     />
   );
 };
