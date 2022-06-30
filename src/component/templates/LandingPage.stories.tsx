@@ -18,9 +18,9 @@ export default {
 
 const indexPageNews: IndexPageNews = {
   id: "test",
-  title: BaseNewsDate,
-  publishedAt: BaseNewsType,
-  categoryName: BaseNewsTitle,
+  title: BaseNewsTitle,
+  publishedAt: BaseNewsDate,
+  categoryName: BaseNewsType,
 };
 
 const Template: ComponentStory<typeof LandingPage> = () => {

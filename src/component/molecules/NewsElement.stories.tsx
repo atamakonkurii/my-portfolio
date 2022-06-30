@@ -2,7 +2,7 @@ import type { ComponentMeta, ComponentStory } from "@storybook/react";
 // eslint-disable-next-line no-restricted-imports
 import React from "react";
 import {
-  BaseNewsDate,
+  BaseNewsDateFormat,
   BaseNewsTitle,
   BaseNewsType,
 } from "src/constants/baseText";
@@ -18,7 +18,7 @@ export default {
 const Template: ComponentStory<typeof NewsElement> = () => {
   return (
     <NewsElement
-      date={BaseNewsDate}
+      date={BaseNewsDateFormat}
       typeOfNews={BaseNewsType}
       title={BaseNewsTitle}
     />

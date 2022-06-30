@@ -14,7 +14,7 @@ const Template: ComponentStory<typeof Plan> = () => {
   return (
     <Plan
       price={"¥1,000"}
-      imageUrl={"/img/ramen.jpg"}
+      imageUrl={"/img/coffee01_blend.png"}
       title={"コーヒー代"}
       paymentLink={"/no_page"}
     />

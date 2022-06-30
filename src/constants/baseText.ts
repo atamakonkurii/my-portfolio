@@ -4,7 +4,8 @@ export const BaseFirstViewSmallText =
 export const BaseCTAButtonText = "とりあえずおごる！";
 
 // News
-export const BaseNewsDate = "20202/6/6";
+export const BaseNewsDate = "2022-06-29T12:40:06.805Z";
+export const BaseNewsDateFormat = "2022/06/29";
 export const BaseNewsType = "新機能";
 export const BaseNewsTitle = "おごり機能をリリースしました。";
 
