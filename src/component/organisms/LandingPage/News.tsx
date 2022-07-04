@@ -7,14 +7,14 @@ import {
   BaseNewsTitle,
   BaseNewsType,
 } from "src/constants/baseText";
-import type { IndexPageNews } from "src/type/types";
+import type { LandingPageNews } from "src/type/types";
 
-type Props = IndexPageNews;
+type Props = LandingPageNews;
 
 export const News: FC<Props> = (props) => {
-  const indexPageNews = props;
+  const landingPageNews = props;
   const date = format(
-    new Date(indexPageNews.publishedAt),
+    new Date(landingPageNews.publishedAt),
     "yyyy/MM/dd"
   ).toString();
   return (
@@ -22,8 +22,8 @@ export const News: FC<Props> = (props) => {
       <div className="hover:opacity-50">
         <NewsElement
           date={date || BaseNewsDate}
-          typeOfNews={indexPageNews.categoryName || BaseNewsType}
-          title={indexPageNews.title || BaseNewsTitle}
+          typeOfNews={landingPageNews.categoryName || BaseNewsType}
+          title={landingPageNews.title || BaseNewsTitle}
         />
       </div>
       <div className="flex justify-center mt-4 hover:opacity-50">

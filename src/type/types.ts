@@ -1,4 +1,4 @@
-export type IndexPageNews = {
+export type LandingPageNews = {
   id: string;
   title: string;
   publishedAt: string;

@@ -1,14 +1,14 @@
 import type { FC } from "react";
 import { LandingPage } from "src/component/templates/LandingPage";
-import type { IndexPageNews } from "src/type/types";
+import type { LandingPageNews } from "src/type/types";
 
-type Props = IndexPageNews;
+type Props = LandingPageNews;
 
 export const Index: FC<Props> = (props) => {
-  const indexPageNews = props;
+  const landingPageNews = props;
   return (
     <div>
-      <LandingPage {...indexPageNews} />
+      <LandingPage {...landingPageNews} />
     </div>
   );
 };

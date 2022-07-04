@@ -7,18 +7,18 @@ import {
   Portfolio,
 } from "src/component/organisms/LandingPage";
 import { AboutAuthor } from "src/component/organisms/LandingPage/AboutAuthor";
-import type { IndexPageNews } from "src/type/types";
+import type { LandingPageNews } from "src/type/types";
 
-type Props = IndexPageNews;
+type Props = LandingPageNews;
 
 export const LandingPage: FC<Props> = (props) => {
-  const indexPageNews = props;
+  const landingPageNews = props;
   return (
     <div>
       <FirstView />
       <div className="pb-8 bg-slate-50">
         <div className="pt-8">
-          <News {...indexPageNews} />
+          <News {...landingPageNews} />
         </div>
         {/* とりあえずいらないと思ったのでコメントアウト。場合によっては復活するかも？ */}
         {/* <div className="pt-8">
