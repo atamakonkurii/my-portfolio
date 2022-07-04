@@ -6,7 +6,7 @@ import { rawDateToYearMonthDay } from "src/utils/dateFormatter";
 export const IndexNewsContainer: FC<NewsArrayResponse> = (props) => {
   const newsResponse = props;
   return (
-    <div className="container mx-auto w-11/12 max-w-lg">
+    <div className="container py-16 mx-auto w-11/12 max-w-lg">
       <div className="flex justify-center text-3xl font-bold">お知らせ</div>
       <div className="mt-8 divide-y divide-slate-300">
         {newsResponse.news.map((news: NewsResponse) => {

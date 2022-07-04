@@ -1,25 +1,20 @@
 import type { FC } from "react";
-import { NewsElement } from "src/component/molecules/NewsElement";
-import type { NewsArrayResponse, NewsResponse } from "src/type/types";
-import { rawDateToYearMonthDay } from "src/utils/dateFormatter";
+import { NewsType } from "src/component/atoms/Text/NewsType";
+import type { NewsArrayResponse } from "src/type/types";
 
-export const ShowNewsContainer: FC<NewsArrayResponse> = (props) => {
-  const newsResponse = props;
+export const ShowNewsContainer: FC<NewsArrayResponse> = () => {
   return (
-    <div className="container mx-auto w-11/12 max-w-lg">
-      <div className="flex justify-center text-3xl font-bold">お知らせ</div>
-      <div className="mt-8 divide-y divide-slate-300">
-        {newsResponse.news.map((news: NewsResponse) => {
-          return (
-            <div key={news.id} className="flex items-center px-3 h-20">
-              <NewsElement
-                date={rawDateToYearMonthDay(news.publishedAt)}
-                typeOfNews={news.category.name}
-                title={news.title}
-              />
-            </div>
-          );
-        })}
+    <div className="container my-16 mx-auto w-11/12 max-w-lg">
+      <h1 className="text-3xl font-bold">
+        初売上！合計400円おごっていただきました！
+      </h1>
+      <div className="mt-4 text-slate-500">2022年6月28日</div>
+      <div className="mt-2">
+        <NewsType typeOfNews={"新機能"} />
+      </div>
+
+      <div className="mt-4 whitespace-pre-line">
+        本日4人の方から合計400円おごっていただきました！\n初めての売上、とても嬉しいです。\nこれからも頑張っておもしろいものを開発していきます！
       </div>
     </div>
   );
