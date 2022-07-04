@@ -5,9 +5,18 @@ export type LandingPageNews = {
   categoryName: string;
 };
 
+export type NewsArrayResponse = {
+  news: {
+    id: string;
+    title: string;
+    publishedAt: string;
+    category: { name: string };
+  }[];
+};
+
 export type NewsResponse = {
   id: string;
   title: string;
   publishedAt: string;
-  categoryName: string;
-}[];
+  category: { name: string };
+};

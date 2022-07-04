@@ -24,7 +24,7 @@ export const LpNews: FC<Props> = (props) => {
         />
       </div>
       <div className="flex justify-center mt-4 hover:opacity-50">
-        <Link href="/no_page">
+        <Link href="/news">
           <a className="text-sm text-blue-600 underline underline-offset-1">
             過去のお知らせ
           </a>

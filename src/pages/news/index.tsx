@@ -1,8 +1,8 @@
 import type { FC } from "react";
 import { NewsContainer } from "src/component/templates/NewsContainer";
-import type { NewsResponse } from "src/type/types";
+import type { NewsArrayResponse } from "src/type/types";
 
-export const News: FC<NewsResponse> = (props) => {
+export const News: FC<NewsArrayResponse> = (props) => {
   const newsResponse = props;
   return (
     <div>

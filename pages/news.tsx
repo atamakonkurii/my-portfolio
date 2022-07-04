@@ -3,7 +3,7 @@ import type { GetStaticProps } from "next";
 import { StandardLayout } from "src/component/layout/StandardLayout";
 import { microCmsClient } from "src/lib/microCmsClient";
 import { News } from "src/pages/news";
-import type { NewsResponse } from "src/type/types";
+import type { NewsArrayResponse } from "src/type/types";
 
 export const getStaticProps: GetStaticProps = async () => {
   const data = await microCmsClient.get({
@@ -13,6 +13,7 @@ export const getStaticProps: GetStaticProps = async () => {
       fields: "id,title,publishedAt,category.name",
     },
   });
+
   return {
     props: {
       news: data.contents,
@@ -20,7 +21,7 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-const NewsPage: CustomNextPage<NewsResponse> = (props) => {
+const NewsPage: CustomNextPage<NewsArrayResponse> = (props) => {
   const newsResponse = props;
   return <News {...newsResponse} />;
 };
