@@ -6,7 +6,7 @@ import {
   BaseNewsTitle,
   BaseNewsType,
 } from "src/constants/baseText";
-import type { IndexPageNews } from "src/type/types";
+import type { LandingPageNews } from "src/type/types";
 
 import { LandingPage } from "./LandingPage";
 
@@ -16,7 +16,7 @@ export default {
   component: LandingPage,
 } as ComponentMeta<typeof LandingPage>;
 
-const indexPageNews: IndexPageNews = {
+const landingPageNews: LandingPageNews = {
   id: "test",
   title: BaseNewsTitle,
   publishedAt: BaseNewsDate,
@@ -24,7 +24,7 @@ const indexPageNews: IndexPageNews = {
 };
 
 const Template: ComponentStory<typeof LandingPage> = () => {
-  return <LandingPage {...indexPageNews} />;
+  return <LandingPage {...landingPageNews} />;
 };
 
 export const Normal = Template.bind({});
