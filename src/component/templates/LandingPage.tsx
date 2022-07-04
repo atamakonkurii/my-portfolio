@@ -3,7 +3,7 @@ import {
   AboutSite,
   BuyMeThings,
   FirstView,
-  News,
+  LpNews,
   Portfolio,
 } from "src/component/organisms/LandingPage";
 import { AboutAuthor } from "src/component/organisms/LandingPage/AboutAuthor";
@@ -18,7 +18,7 @@ export const LandingPage: FC<Props> = (props) => {
       <FirstView />
       <div className="pb-8 bg-slate-50">
         <div className="pt-8">
-          <News {...landingPageNews} />
+          <LpNews {...landingPageNews} />
         </div>
         {/* とりあえずいらないと思ったのでコメントアウト。場合によっては復活するかも？ */}
         {/* <div className="pt-8">

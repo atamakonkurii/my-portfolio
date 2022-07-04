@@ -6,25 +6,25 @@ import {
   BaseNewsTitle,
   BaseNewsType,
 } from "src/constants/baseText";
-import type { IndexPageNews } from "src/type/types";
+import type { LandingPageNews } from "src/type/types";
 
-import { News } from "./News";
+import { LpNews } from "./LpNews";
 
 // eslint-disable-next-line import/no-default-export
 export default {
-  title: "Organisms/LandingPage/News",
-  component: News,
-} as ComponentMeta<typeof News>;
+  title: "Organisms/LandingPage/LpNews",
+  component: LpNews,
+} as ComponentMeta<typeof LpNews>;
 
-const indexPageNews: IndexPageNews = {
+const landingPageNews: LandingPageNews = {
   id: "test",
   title: BaseNewsTitle,
   publishedAt: BaseNewsDate,
   categoryName: BaseNewsType,
 };
 
-const Template: ComponentStory<typeof News> = () => {
-  return <News {...indexPageNews} />;
+const Template: ComponentStory<typeof LpNews> = () => {
+  return <LpNews {...landingPageNews} />;
 };
 
 export const Normal = Template.bind({});

@@ -4,3 +4,10 @@ export type LandingPageNews = {
   publishedAt: string;
   categoryName: string;
 };
+
+export type NewsResponse = {
+  id: string;
+  title: string;
+  publishedAt: string;
+  categoryName: string;
+}[];

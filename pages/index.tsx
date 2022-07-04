@@ -3,7 +3,7 @@ import type { GetStaticProps } from "next";
 import { StandardLayout } from "src/component/layout/StandardLayout";
 import { microCmsClient } from "src/lib/microCmsClient";
 import { Index } from "src/pages/index";
-import type { IndexPageNews } from "src/type/types";
+import type { LandingPageNews } from "src/type/types";
 
 export const getStaticProps: GetStaticProps = async () => {
   const data = await microCmsClient.get({
@@ -24,13 +24,13 @@ export const getStaticProps: GetStaticProps = async () => {
 const IndexPage: CustomNextPage = (news) => {
   // eslint-disable-next-line react/destructuring-assignment
   const tmp: any = news.news;
-  const indexPageNews: IndexPageNews = {
+  const landingPageNews: LandingPageNews = {
     id: tmp.id,
     title: tmp.title,
     publishedAt: tmp.publishedAt,
     categoryName: tmp.category.name,
   };
-  return <Index {...indexPageNews} />;
+  return <Index {...landingPageNews} />;
 };
 
 IndexPage.getLayout = StandardLayout;
