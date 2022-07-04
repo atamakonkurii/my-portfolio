@@ -8,13 +8,13 @@ import {
 } from "src/constants/baseText";
 import type { LandingPageNews } from "src/type/types";
 
-import { LandingPage } from "./LandingPage";
+import { LpNews } from "./LpNews";
 
 // eslint-disable-next-line import/no-default-export
 export default {
-  title: "Templates/LandingPage",
-  component: LandingPage,
-} as ComponentMeta<typeof LandingPage>;
+  title: "Organisms/LandingPage/LpNews",
+  component: LpNews,
+} as ComponentMeta<typeof LpNews>;
 
 const landingPageNews: LandingPageNews = {
   id: "test",
@@ -23,8 +23,8 @@ const landingPageNews: LandingPageNews = {
   categoryName: BaseNewsType,
 };
 
-const Template: ComponentStory<typeof LandingPage> = () => {
-  return <LandingPage {...landingPageNews} />;
+const Template: ComponentStory<typeof LpNews> = () => {
+  return <LpNews {...landingPageNews} />;
 };
 
 export const Normal = Template.bind({});

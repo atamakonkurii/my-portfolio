@@ -1,4 +1,3 @@
-import { format } from "date-fns";
 import Link from "next/link";
 import type { FC } from "react";
 import { NewsElement } from "src/component/molecules/NewsElement";
@@ -7,27 +6,25 @@ import {
   BaseNewsTitle,
   BaseNewsType,
 } from "src/constants/baseText";
-import type { IndexPageNews } from "src/type/types";
+import type { LandingPageNews } from "src/type/types";
+import { rawDateToYearMonthDay } from "src/utils/dateFormatter";
 
-type Props = IndexPageNews;
+type Props = LandingPageNews;
 
-export const News: FC<Props> = (props) => {
-  const indexPageNews = props;
-  const date = format(
-    new Date(indexPageNews.publishedAt),
-    "yyyy/MM/dd"
-  ).toString();
+export const LpNews: FC<Props> = (props) => {
+  const landingPageNews = props;
+  const date = rawDateToYearMonthDay(landingPageNews.publishedAt);
   return (
     <div className="container mx-auto w-11/12 max-w-lg">
       <div className="hover:opacity-50">
         <NewsElement
           date={date || BaseNewsDate}
-          typeOfNews={indexPageNews.categoryName || BaseNewsType}
-          title={indexPageNews.title || BaseNewsTitle}
+          typeOfNews={landingPageNews.categoryName || BaseNewsType}
+          title={landingPageNews.title || BaseNewsTitle}
         />
       </div>
       <div className="flex justify-center mt-4 hover:opacity-50">
-        <Link href="/no_page">
+        <Link href="/news">
           <a className="text-sm text-blue-600 underline underline-offset-1">
             過去のお知らせ
           </a>

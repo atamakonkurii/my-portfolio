@@ -14,7 +14,7 @@ const Template: ComponentStory<typeof Work> = () => {
   return (
     <Work
       text={"スマホの画像で騙し合うゲーム"}
-      imageUrl={"/img/ramen.jpg"}
+      imageUrl={"/img/character_hitsuji_ookami.png"}
       title={"写真人狼"}
       link={"https://www.google.co.jp/"}
     />

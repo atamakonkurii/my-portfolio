@@ -17,12 +17,6 @@ export const NoPageContainer = () => {
           ホームに戻る
         </a>
       </Link>
-      {/* <a
-        href="/"
-        className="flex justify-center pt-4 pb-8 text-xl font-bold text-blue-500 hover:opacity-50"
-      >
-        ホームに戻る
-      </a> */}
     </div>
   );
 };
