@@ -3,7 +3,7 @@ import { NewsElement } from "src/component/molecules/NewsElement";
 import type { NewsArrayResponse, NewsResponse } from "src/type/types";
 import { rawDateToYearMonthDay } from "src/utils/dateFormatter";
 
-export const NewsContainer: FC<NewsArrayResponse> = (props) => {
+export const IndexNewsContainer: FC<NewsArrayResponse> = (props) => {
   const newsResponse = props;
   return (
     <div className="container mx-auto w-11/12 max-w-lg">
