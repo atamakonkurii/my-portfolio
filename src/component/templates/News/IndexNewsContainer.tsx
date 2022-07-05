@@ -13,6 +13,7 @@ export const IndexNewsContainer: FC<NewsArrayResponse> = (props) => {
           return (
             <div key={news.id} className="flex items-center px-3 h-20">
               <NewsElement
+                id={news.id}
                 date={rawDateToYearMonthDay(news.publishedAt)}
                 typeOfNews={news.category.name}
                 title={news.title}
