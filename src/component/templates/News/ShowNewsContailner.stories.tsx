@@ -6,7 +6,7 @@ import {
   BaseNewsTitle,
   BaseNewsType,
 } from "src/constants/baseText";
-import type { NewsArrayResponse } from "src/type/types";
+import type { NewsShowResponse } from "src/type/types";
 
 import { ShowNewsContainer } from "./ShowNewsContainer";
 
@@ -16,21 +16,14 @@ export default {
   component: ShowNewsContainer,
 } as ComponentMeta<typeof ShowNewsContainer>;
 
-const newsResponse: NewsArrayResponse = {
-  news: [
-    {
-      id: "test",
-      title: BaseNewsTitle,
-      publishedAt: BaseNewsDate,
-      category: { name: BaseNewsType },
-    },
-    {
-      id: "test",
-      title: BaseNewsTitle,
-      publishedAt: BaseNewsDate,
-      category: { name: BaseNewsType },
-    },
-  ],
+const newsResponse: NewsShowResponse = {
+  news: {
+    id: "test",
+    title: BaseNewsTitle,
+    publishedAt: BaseNewsDate,
+    category: { name: BaseNewsType },
+    content: "aaa",
+  },
 };
 
 const Template: ComponentStory<typeof ShowNewsContainer> = () => {
