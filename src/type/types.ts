@@ -20,3 +20,13 @@ export type NewsResponse = {
   publishedAt: string;
   category: { name: string };
 };
+
+export type NewsShowResponse = {
+  news: {
+    id: string;
+    title: string;
+    publishedAt: string;
+    category: { name: string };
+    content: string;
+  };
+};

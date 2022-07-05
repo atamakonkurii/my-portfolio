@@ -8,13 +8,13 @@ import {
 } from "src/constants/baseText";
 import type { NewsArrayResponse } from "src/type/types";
 
-import { NewsContainer } from "./NewsContainer";
+import { IndexNewsContainer } from "./IndexNewsContainer";
 
 // eslint-disable-next-line import/no-default-export
 export default {
-  title: "Templates/NewsContainer ",
-  component: NewsContainer,
-} as ComponentMeta<typeof NewsContainer>;
+  title: "Templates/News/IndexNewsContainer ",
+  component: IndexNewsContainer,
+} as ComponentMeta<typeof IndexNewsContainer>;
 
 const newsResponse: NewsArrayResponse = {
   news: [
@@ -33,8 +33,8 @@ const newsResponse: NewsArrayResponse = {
   ],
 };
 
-const Template: ComponentStory<typeof NewsContainer> = () => {
-  return <NewsContainer {...newsResponse} />;
+const Template: ComponentStory<typeof IndexNewsContainer> = () => {
+  return <IndexNewsContainer {...newsResponse} />;
 };
 
 export const Normal = Template.bind({});

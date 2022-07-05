@@ -2,15 +2,16 @@ import Link from "next/link";
 import { NewsType } from "src/component/atoms/Text/NewsType";
 
 type Props = {
+  id: string;
   date: string;
   typeOfNews: string;
   title: string;
 };
 
 export const NewsElement = (props: Props) => {
-  const { date, title, typeOfNews } = props;
+  const { date, id, title, typeOfNews } = props;
   return (
-    <Link href="/no_page">
+    <Link href={`/news/${id}`}>
       <a className="flex">
         <div className="text-sm font-semibold">{date}</div>
         <div className="pl-2">

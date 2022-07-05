@@ -18,6 +18,7 @@ export const LpNews: FC<Props> = (props) => {
     <div className="container mx-auto w-11/12 max-w-lg">
       <div className="hover:opacity-50">
         <NewsElement
+          id={landingPageNews.id}
           date={date || BaseNewsDate}
           typeOfNews={landingPageNews.categoryName || BaseNewsType}
           title={landingPageNews.title || BaseNewsTitle}
