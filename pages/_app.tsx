@@ -28,7 +28,10 @@ const App: CustomAppPage = ({ Component, pageProps }) => {
           property="og:description"
           content="おごられたいを前面に出したポートフォリオサイト"
         />
-        <meta property="og:image" content="https://kazukiohta.com/ogp.png" />
+        <meta
+          property="og:image"
+          content="https://kazukiohta.com/img/ogp.png"
+        />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       {getLayout(<Component {...pageProps} />)}
