@@ -36,9 +36,7 @@ export const StandardFooter: FC = () => {
           </Link>
         </div>
 
-        <div className="py-4 pr-4 text-xs text-right">
-          ©︎2022 OGOTTE KUDASAI
-        </div>
+        <div className="py-4 pr-4 text-xs text-right">©︎2022 KAZUKI OHTA</div>
       </div>
     </footer>
   );
