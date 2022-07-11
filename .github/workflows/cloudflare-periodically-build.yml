@@ -1,0 +1,13 @@
+name: Cloudflare Periodically BUild
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 18 * * *" # 日本時間朝の3時半に毎日実行
+jobs:
+  curl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: curl
+        uses: wei/curl@v1
+        with:
+          args: -X POST ${{ secrets.CF_DEPLOY_HOOK }}
