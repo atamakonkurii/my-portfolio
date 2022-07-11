@@ -4,7 +4,6 @@ import { SimpleLinkButton } from "src/component/atoms/Button/SimpleLinkButton";
 import { LandingPageTitle } from "src/component/atoms/Text/LandingPageTitle";
 import { AboutAuthorElement } from "src/component/molecules/AboutAuthorElement";
 import {
-  AboutAuthorButtonLink,
   AboutAuthorButtonText,
   BaseAboutAuthorTitle,
 } from "src/constants/baseText";
@@ -15,10 +14,7 @@ export const AboutAuthor = () => {
       <LandingPageTitle text={BaseAboutAuthorTitle} />
       <AboutAuthorElement />
       <div className="pt-8 text-center">
-        <SimpleLinkButton
-          text={AboutAuthorButtonText}
-          href={AboutAuthorButtonLink}
-        />
+        <SimpleLinkButton text={AboutAuthorButtonText} href={"/about_author"} />
       </div>
     </div>
   );
