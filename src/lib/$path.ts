@@ -35,6 +35,7 @@ export const staticPath = {
     food_beefsteak_png: '/img/food_beefsteak.png',
     jamstack_stripe_logo_png: '/img/jamstack_stripe_logo.png',
     my_image_jpg: '/img/my_image.jpg',
+    ogp_png: '/img/ogp.png',
     ojigi_animal_inu_png: '/img/ojigi_animal_inu.png'
   },
   mockServiceWorker_js: '/mockServiceWorker.js'
