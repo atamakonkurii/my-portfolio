@@ -1,4 +1,4 @@
-name: Cloudflare Periodically BUild
+name: Cloudflare Periodically Build
 on:
   workflow_dispatch:
   schedule:
@@ -7,7 +7,17 @@ jobs:
   curl:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: curl
         uses: wei/curl@v1
         with:
           args: -X POST ${{ secrets.CF_DEPLOY_HOOK }}
+      - name: Send Slack deployment notifications
+        uses: arddluma/cloudflare-pages-slack-notification@v2.2
+        with:
+          accountEmail: ${{ secrets.CF_ACCOUNT_EMAIL  }}
+          apiKey: ${{ secrets.CF_API_KEY  }}
+          accountId: ${{ secrets.CF_ACC_ID  }}
+          project: ${{ secrets.CF_PROJECT  }}
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          slackWebHook: ${{ secrets.SLACK_INCOMING_WEBHOOK_URL  }}
