@@ -29,6 +29,7 @@ export const pagesPath = {
 export type PagesPath = typeof pagesPath
 
 export const staticPath = {
+  apple_touch_icon_png: '/apple-touch-icon.png',
   favicon_ico: '/favicon.ico',
   img: {
     book_yoko_png: '/img/book_yoko.png',
