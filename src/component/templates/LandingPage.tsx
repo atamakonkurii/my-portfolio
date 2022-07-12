@@ -36,7 +36,7 @@ export const LandingPage: FC<Props> = (props) => {
         <div className="pt-16">
           <BuyMeThings />
         </div>
-        <div className="fixed right-8 bottom-8 py-9 w-24 text-center text-white bg-green-300 rounded-full ring-4 ring-offset-4 ring-offset-blue">
+        <div className="fixed bottom-8 left-8 py-9 w-24 text-center text-white bg-green-300 rounded-full ring-4 ring-offset-4">
           TOPへ戻る
         </div>
       </div>
