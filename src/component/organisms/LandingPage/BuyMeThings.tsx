@@ -13,20 +13,28 @@ export const BuyMeThings = () => {
           title={"コーヒー"}
           paymentLink={"https://buy.stripe.com/5kAbK48hY1Xa3gQ3cd"}
         />
-        <div className="pt-2">
+        {/* <div className="pt-2">
           <Plan
             price={"¥1,000"}
             imageUrl={"/img/food_beefsteak.png"}
             title={"ランチ"}
             paymentLink={"https://buy.stripe.com/7sI6pK1TA0T63gQ4gi"}
           />
-        </div>
+        </div> */}
         <div className="pt-2">
           <Plan
             price={"¥3,000"}
             imageUrl={"/img/book_yoko.png"}
             title={"技術書"}
             paymentLink={"https://buy.stripe.com/fZe9BWdCi45icRq147"}
+          />
+        </div>
+        <div className="pt-2">
+          <Plan
+            price={"¥5,000~"}
+            imageUrl={"/img/travel_bus_train_couple.webp"}
+            title={"旅行"}
+            paymentLink={"https://buy.stripe.com/28o3dycyeeJW3gQcMR"}
           />
         </div>
       </div>
