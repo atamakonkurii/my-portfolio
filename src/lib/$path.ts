@@ -29,6 +29,7 @@ export const pagesPath = {
 export type PagesPath = typeof pagesPath
 
 export const staticPath = {
+  apple_touch_icon_png: '/apple-touch-icon.png',
   favicon_ico: '/favicon.ico',
   img: {
     book_yoko_png: '/img/book_yoko.png',
@@ -39,7 +40,8 @@ export const staticPath = {
     jamstack_stripe_logo_png: '/img/jamstack_stripe_logo.png',
     my_image_jpg: '/img/my_image.jpg',
     ogp_png: '/img/ogp.png',
-    ojigi_animal_inu_png: '/img/ojigi_animal_inu.png'
+    ojigi_animal_inu_png: '/img/ojigi_animal_inu.png',
+    travel_bus_train_couple_webp: '/img/travel_bus_train_couple.webp'
   },
   mockServiceWorker_js: '/mockServiceWorker.js'
 } as const
