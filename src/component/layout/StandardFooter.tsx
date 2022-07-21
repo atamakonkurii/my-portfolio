@@ -37,6 +37,9 @@ export const StandardFooter: FC = () => {
         </div>
 
         <div className="py-4 pr-4 text-xs text-right">©︎2022 KAZUKI OHTA</div>
+
+        {/* SNSシェアのアイコンでfooterが隠れるのでpaddingを使う */}
+        <div className="pb-12 sm:pb-0"></div>
       </div>
     </footer>
   );

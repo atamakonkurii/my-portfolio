@@ -32,6 +32,8 @@ export const staticPath = {
   apple_touch_icon_png: '/apple-touch-icon.png',
   favicon_ico: '/favicon.ico',
   img: {
+    LINE_APP_Android_webp: '/img/LINE_APP_Android.webp',
+    Twitter_social_icons___circle___blue_png: '/img/Twitter social icons - circle - blue.png',
     book_yoko_png: '/img/book_yoko.png',
     character_hitsuji_ookami_png: '/img/character_hitsuji_ookami.png',
     coffee01_blend_png: '/img/coffee01_blend.png',
