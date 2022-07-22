@@ -1,10 +1,20 @@
-import type { FC } from "react";
 import { AboutAuthorPageContainer } from "src/component/templates/AboutAuthorPageContainer";
 
-export const AboutAuthorPage: FC = () => {
+type Feed = {
+  title: string;
+  link: string;
+  isoDate: string;
+};
+
+type Props = {
+  qiitaPosts: Array<Feed>;
+  zennPosts: Array<Feed>;
+};
+
+export const AboutAuthorPage = ({ qiitaPosts, zennPosts }: Props) => {
   return (
     <div>
-      <AboutAuthorPageContainer />
+      <AboutAuthorPageContainer qiitaPosts={qiitaPosts} zennPosts={zennPosts} />
     </div>
   );
 };

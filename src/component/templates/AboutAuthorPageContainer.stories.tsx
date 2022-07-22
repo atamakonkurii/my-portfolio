@@ -11,7 +11,7 @@ export default {
 } as ComponentMeta<typeof AboutAuthorPageContainer>;
 
 const Template: ComponentStory<typeof AboutAuthorPageContainer> = () => {
-  return <AboutAuthorPageContainer />;
+  return <AboutAuthorPageContainer qiitaPosts={[]} zennPosts={[]} />;
 };
 
 export const Normal = Template.bind({});
