@@ -1,5 +1,5 @@
-import Link from "next/link";
 import type { FC } from "react";
+import { FloatingShareButton } from "src/component/organisms/FloatingShareButton";
 import {
   AboutSite,
   BuyMeThings,
@@ -37,29 +37,7 @@ export const LandingPage: FC<Props> = (props) => {
         <div className="pt-16">
           <BuyMeThings />
         </div>
-        <div className="fixed bottom-8 left-6">
-          <Link href={"https://twitter.com/share?url=https://kazukiohta.com"}>
-            <a>
-              <img
-                src={"/img/Twitter social icons - circle - blue.png"}
-                className="object-cover my-auto w-10 h-10 sm:w-0 sm:h-0"
-                alt="twitter_share"
-              />
-            </a>
-          </Link>
-        </div>
-
-        <div className="fixed bottom-8 left-20">
-          <Link href={"https://line.me/R/msg/text/?https://kazukiohta.com"}>
-            <a>
-              <img
-                src={"/img/LINE_APP_Android.webp"}
-                className="object-cover my-auto w-10 h-10 sm:w-0 sm:h-0"
-                alt="twitter_share"
-              />
-            </a>
-          </Link>
-        </div>
+        <FloatingShareButton />
       </div>
     </div>
   );
