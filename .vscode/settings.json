@@ -14,5 +14,5 @@
   "tailwindCSS.experimental.classRegex": [
     ["classNames\\(([^)]*)\\)", "\"([^\"]*)\""]
   ],
-  "cSpell.words": ["zenn"]
+  "cSpell.words": ["qiita", "zenn"]
 }

@@ -8,14 +8,14 @@ type Feed = {
 };
 
 type Props = {
-  zennPosts: Array<Feed>;
+  qiitaPosts: Array<Feed>;
 };
 
-export const ZennPostsIndex = ({ zennPosts }: Props) => {
+export const QiitaPostsIndex = ({ qiitaPosts }: Props) => {
   return (
     <div>
-      <div className="divide-y divide-slate-300">
-        {zennPosts.map((post: Feed, index: number) => {
+      <div className="mt-12 divide-y divide-slate-300">
+        {qiitaPosts.map((post: Feed, index: number) => {
           //最新3件のみ表示
           if (index >= 3) {
             return;
@@ -26,7 +26,7 @@ export const ZennPostsIndex = ({ zennPosts }: Props) => {
                   title={post.title}
                   link={post.link}
                   isoDate={post.isoDate}
-                  service={"zenn"}
+                  service={"qiita"}
                 />
               </div>
             );
@@ -35,8 +35,8 @@ export const ZennPostsIndex = ({ zennPosts }: Props) => {
       </div>
       <div className="mt-4 text-center">
         <SimpleLinkButton
-          text={"zenn記事一覧を見る"}
-          href={"https://zenn.dev/atakon"}
+          text={"Qiita記事一覧を見る"}
+          href={"https://qiita.com/atamakonkurii"}
         />
       </div>
     </div>

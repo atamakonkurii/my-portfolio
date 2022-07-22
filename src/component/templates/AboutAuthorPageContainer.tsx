@@ -1,5 +1,5 @@
 import { AboutAuthorElement } from "src/component/molecules/AboutAuthorElement";
-import { ArticleWork } from "src/component/molecules/ArticleWork";
+import { QiitaPostsIndex } from "src/component/molecules/QiitaPostsIndex";
 import { ZennPostsIndex } from "src/component/molecules/ZennPostsIndex";
 
 type Feed = {
@@ -19,29 +19,11 @@ export const AboutAuthorPageContainer = ({ qiitaPosts, zennPosts }: Props) => {
       <div className="flex justify-center text-3xl font-bold">作者について</div>
       <AboutAuthorElement />
       <div className="flex justify-center mt-16 text-2xl font-medium">
-        最新執筆記事
+        ✏️最新執筆記事
       </div>
       <ZennPostsIndex zennPosts={zennPosts} />
 
-      <div className="mt-12 divide-y divide-slate-300">
-        {qiitaPosts.map((post: Feed, index) => {
-          //最新3件のみ表示
-          if (index >= 3) {
-            return;
-          }
-
-          return (
-            <div key={post.title} className="flex items-center px-3 h-20">
-              <ArticleWork
-                title={post.title}
-                link={post.link}
-                isoDate={post.isoDate}
-                service={"qiita"}
-              />
-            </div>
-          );
-        })}
-      </div>
+      <QiitaPostsIndex qiitaPosts={qiitaPosts} />
     </div>
   );
 };
