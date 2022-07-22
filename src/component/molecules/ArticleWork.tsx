@@ -12,10 +12,10 @@ const serviceTypeColor = (typeOfService: string) => {
   let bgColor;
   switch (typeOfService) {
     case "qiita":
-      bgColor = "bg-amber-600";
+      bgColor = "bg-emerald-500";
       break;
     case "zenn":
-      bgColor = "bg-red-600";
+      bgColor = "bg-sky-600";
       break;
     default:
       bgColor = "bg-neutral-700";
@@ -29,18 +29,20 @@ export const ArticleWork = (props: Props) => {
   const { isoDate, link, service, title } = props;
   return (
     <Link href={link}>
-      <a className="flex">
+      <a className="flex items-center">
         <div className="text-sm font-semibold">
           {rawDateToYearMonthDay(isoDate)}
         </div>
         <div
-          className={`pl-2 ${serviceTypeColor(
+          className={`ml-2 ${serviceTypeColor(
             service
-          )} text-white rounded w-16 flex`}
+          )} text-white rounded w-12 h-5 flex`}
         >
-          {service}
+          <p className="py-0.5 w-12 h-5 text-xs font-semibold text-center">
+            {service}
+          </p>
         </div>
-        <div className="pl-2 text-sm font-semibold">{title}</div>
+        <div className="ml-2 text-sm font-semibold">{title}</div>
       </a>
     </Link>
   );
