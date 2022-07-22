@@ -34,7 +34,7 @@ export const BuyMeThings = () => {
             price={"¥5,000~"}
             imageUrl={"/img/travel_bus_train_couple.webp"}
             title={"旅行"}
-            paymentLink={"https://buy.stripe.com/28o3dycyeeJW3gQcMR"}
+            paymentLink={"https://buy.stripe.com/14kaG0eGm45i3gQ6ou"}
           />
         </div>
       </div>
