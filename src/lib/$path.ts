@@ -32,6 +32,7 @@ export const staticPath = {
   apple_touch_icon_png: '/apple-touch-icon.png',
   favicon_ico: '/favicon.ico',
   img: {
+    GitHub_Mark_32px_png: '/img/GitHub-Mark-32px.png',
     LINE_APP_Android_webp: '/img/LINE_APP_Android.webp',
     Twitter_social_icons___circle___blue_png: '/img/Twitter social icons - circle - blue.png',
     book_yoko_png: '/img/book_yoko.png',
@@ -44,7 +45,8 @@ export const staticPath = {
     ogp_png: '/img/ogp.png',
     ojigi_animal_inu_png: '/img/ojigi_animal_inu.png',
     ojigi_man_webp: '/img/ojigi_man.webp',
-    travel_bus_train_couple_webp: '/img/travel_bus_train_couple.webp'
+    travel_bus_train_couple_webp: '/img/travel_bus_train_couple.webp',
+    youtube_social_circle_red_png: '/img/youtube_social_circle_red.png'
   },
   mockServiceWorker_js: '/mockServiceWorker.js'
 } as const
