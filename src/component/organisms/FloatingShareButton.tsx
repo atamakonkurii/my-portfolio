@@ -25,7 +25,7 @@ export const FloatingShareButton = () => {
             <img
               src={"/img/LINE_APP_Android.webp"}
               className="object-cover my-auto w-10 h-10 sm:w-0 sm:h-0"
-              alt="twitter_share"
+              alt="line_share"
             />
           </a>
         </Link>
