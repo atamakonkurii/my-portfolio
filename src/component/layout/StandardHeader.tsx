@@ -4,7 +4,7 @@ import { SiteLogo } from "src/component/atoms/Svg/SiteLogo";
 
 export const StandardHeader: FC = () => {
   return (
-    <header className="fixed top-0 left-0 bg-white/50">
+    <header className="fixed top-0 left-0 bg-white/30">
       <div className="flex items-center ml-8 w-screen h-12">
         <Link href="/">
           <a>
