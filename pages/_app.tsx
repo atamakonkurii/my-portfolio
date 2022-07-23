@@ -33,6 +33,7 @@ const App: CustomAppPage = ({ Component, pageProps }) => {
           content="https://kazukiohta.com/img/ogp.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="theme-color" content="#2563eb"></meta>
         <link
           rel="apple-touch-icon"
           href="apple-touch-icon.png"
