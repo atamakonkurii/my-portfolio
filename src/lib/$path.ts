@@ -46,7 +46,7 @@ export const staticPath = {
     ojigi_animal_inu_png: '/img/ojigi_animal_inu.png',
     ojigi_man_webp: '/img/ojigi_man.webp',
     travel_bus_train_couple_webp: '/img/travel_bus_train_couple.webp',
-    youtube_social_circle_red_png: '/img/youtube_social_circle_red.png'
+    youtube_social_icon_red_png: '/img/youtube_social_icon_red.png'
   },
   mockServiceWorker_js: '/mockServiceWorker.js'
 } as const
