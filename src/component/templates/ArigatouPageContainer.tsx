@@ -12,7 +12,7 @@ export const ArigatouPageContainer = () => {
         alt="inu"
         width={200}
       />
-      <div className="flex justify-center mt-8">
+      <div className="flex justify-center mt-12">
         <Link
           href={
             "https://twitter.com/share?&text=才能あふれる若者におごってみました💰%0a彼と同じ時代に生まれたことを幸せに思います%0a%23おごってください&url=https://kazukiohta.com"
@@ -37,8 +37,8 @@ export const ArigatouPageContainer = () => {
           </a>
         </Link>
       </div>
-      <div className="flex justify-center mt-4 text-blue-500">
-        ＼SNSでおごった報告、是非お願いします／
+      <div className="flex justify-center my-4 font-semibold text-blue-500">
+        ＼おごった報告、是非お願いします／
       </div>
     </div>
   );

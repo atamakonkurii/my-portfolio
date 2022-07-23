@@ -1,11 +1,11 @@
 import type { CustomNextPage } from "next";
 import { StandardLayout } from "src/component/layout/StandardLayout";
-import { NoPage } from "src/pages/no_page";
+import { ArigatouPage } from "src/pages/arigatou";
 
-const No: CustomNextPage = () => {
-  return <NoPage />;
+const Arigatou: CustomNextPage = () => {
+  return <ArigatouPage />;
 };
 
-No.getLayout = StandardLayout;
+Arigatou.getLayout = StandardLayout;
 
-export default No;
+export default Arigatou;
