@@ -11,7 +11,7 @@ import {
 export const FirstView: FC = () => {
   return (
     <div className="pb-16 bg-gradient-to-r from-sky-500 to-indigo-500 ">
-      <div className="pt-12 text-center">
+      <div className="pt-4 text-center">
         <FirstViewSmallText text={BaseFirstViewSmallText} />
       </div>
       <div className="flex justify-center pt-8">
