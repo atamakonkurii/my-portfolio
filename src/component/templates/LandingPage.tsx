@@ -18,7 +18,7 @@ export const LandingPage: FC<Props> = (props) => {
     <div>
       <FirstView />
       <div className="bg-slate-50">
-        <div className="mt-8">
+        <div className="pt-8">
           <LpNews {...landingPageNews} />
         </div>
         {/* とりあえずいらないと思ったのでコメントアウト。場合によっては復活するかも？ */}
@@ -34,7 +34,7 @@ export const LandingPage: FC<Props> = (props) => {
         <div className="mt-16">
           <Portfolio />
         </div>
-        <div className="mt-16 mb-8">
+        <div className="pb-8 mt-16">
           <BuyMeThings />
         </div>
         <FloatingShareButton />
