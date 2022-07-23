@@ -37,7 +37,7 @@ export const ArigatouPageContainer = () => {
           </a>
         </Link>
       </div>
-      <div className="flex justify-center my-4 font-semibold text-blue-500">
+      <div className="flex justify-center mt-4 mb-8 font-semibold text-blue-500">
         ＼おごった報告、是非お願いします／
       </div>
     </div>
