@@ -36,10 +36,10 @@ export const StandardFooter: FC = () => {
           </Link>
         </div>
 
-        <div className="py-4 pr-4 text-xs text-right">©︎2022 KAZUKI OHTA</div>
-
         {/* SNSシェアのアイコンでfooterが隠れるのでpaddingを使う */}
-        <div className="pb-12 sm:pb-0"></div>
+        <div className="pt-12 sm:pt-0"></div>
+
+        <div className="pr-4 pb-4 text-xs text-right">©︎2022 KAZUKI OHTA</div>
       </div>
     </footer>
   );
