@@ -17,24 +17,24 @@ export const LandingPage: FC<Props> = (props) => {
   return (
     <div>
       <FirstView />
-      <div className="pb-8 bg-slate-50">
-        <div className="pt-8">
+      <div className="bg-slate-50">
+        <div className="mt-8">
           <LpNews {...landingPageNews} />
         </div>
         {/* とりあえずいらないと思ったのでコメントアウト。場合によっては復活するかも？ */}
         {/* <div className="pt-8">
           <GoodForUs />
         </div> */}
-        <div className="pt-12">
+        <div className="mt-12">
           <AboutSite />
         </div>
-        <div className="pt-16">
+        <div className="mt-16">
           <AboutAuthor />
         </div>
-        <div className="pt-16">
+        <div className="mt-16">
           <Portfolio />
         </div>
-        <div className="pt-16">
+        <div className="mt-16 mb-8">
           <BuyMeThings />
         </div>
         <FloatingShareButton />
