@@ -7,9 +7,9 @@ export const ArigatouPageContainer = () => {
         おごり、ありがとうございます！🙏
       </div>
       <img
-        src={"/img/ojigi_animal_inu.png"}
-        className="mx-auto"
-        alt="inu"
+        src={"/img/ojigi_man.webp"}
+        className="mx-auto mt-8"
+        alt="arigatou"
         width={200}
       />
       <div className="flex justify-center mt-12">
