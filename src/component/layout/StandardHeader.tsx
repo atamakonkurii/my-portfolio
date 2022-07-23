@@ -8,7 +8,7 @@ export const StandardHeader: FC = () => {
       <div className="flex items-center ml-8 w-screen h-16">
         <Link href="/">
           <a>
-            <SiteLogo color={"rgb(99 102 241)"} height={40} width={70} />
+            <SiteLogo color={"rgb(37 99 235)"} height={40} width={70} />
           </a>
         </Link>
       </div>
