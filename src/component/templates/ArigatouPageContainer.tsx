@@ -3,16 +3,16 @@ import Link from "next/link";
 export const ArigatouPageContainer = () => {
   return (
     <div className="pt-16">
-      <div className="flex justify-center text-3xl font-bold">
+      <div className="flex justify-center text-xl font-bold sm:text-3xl">
         おごり、ありがとうございます！🙏
       </div>
       <img
         src={"/img/ojigi_man.webp"}
         className="mx-auto mt-8"
         alt="arigatou"
-        width={200}
+        width={100}
       />
-      <div className="flex justify-center mt-12">
+      <div className="flex justify-center mt-8">
         <Link
           href={
             "https://twitter.com/share?&text=才能あふれる若者におごってみました💰%0a彼と同じ時代に生まれたことを幸せに思います%0a%23おごってください&url=https://kazukiohta.com"
