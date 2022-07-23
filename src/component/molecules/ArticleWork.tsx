@@ -29,7 +29,7 @@ export const ArticleWork = (props: Props) => {
   const { isoDate, link, service, title } = props;
   return (
     <Link href={link}>
-      <a className="flex items-center">
+      <a className="flex items-center hover:opacity-50">
         <div className="text-sm font-semibold">
           {rawDateToYearMonthDay(isoDate)}
         </div>
