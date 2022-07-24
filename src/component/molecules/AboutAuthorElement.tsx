@@ -3,7 +3,7 @@ import Link from "next/link";
 export const AboutAuthorElement = () => {
   return (
     <div>
-      <img src="/img/my_image.jpg" className="pt-4 mx-auto" />
+      <img src="/img/my_image.webp" className="pt-4 mx-auto" />
       <div className="flex items-center mt-4">
         <div>
           <p className="text-xl font-medium">太田 和希</p>
@@ -15,7 +15,7 @@ export const AboutAuthorElement = () => {
               <Link href={"https://github.com/atamakonkurii"}>
                 <a>
                   <img
-                    src={"/img/GitHub-Mark-32px.png"}
+                    src={"/img/GitHub-Mark-32px.webp"}
                     className="object-cover my-auto w-6 h-6"
                     alt="my_github"
                   />
@@ -26,7 +26,7 @@ export const AboutAuthorElement = () => {
               <Link href={"https://twitter.com/atamakonkurii"}>
                 <a>
                   <img
-                    src={"/img/Twitter social icons - circle - blue.png"}
+                    src={"/img/Twitter social icons - circle - blue.webp"}
                     className="object-cover my-auto ml-3 w-6 h-6"
                     alt="my_twitter"
                   />
@@ -37,7 +37,7 @@ export const AboutAuthorElement = () => {
               <Link href={"https://www.youtube.com/c/atamakonkurii"}>
                 <a>
                   <img
-                    src={"/img/youtube_social_icon_red.png"}
+                    src={"/img/youtube_social_icon_red.webp"}
                     className="object-cover my-auto ml-3 w-7 h-5"
                     alt="my_youtube"
                   />

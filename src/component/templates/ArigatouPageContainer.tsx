@@ -20,7 +20,7 @@ export const ArigatouPageContainer = () => {
         >
           <a>
             <img
-              src={"/img/Twitter social icons - circle - blue.png"}
+              src={"/img/Twitter social icons - circle - blue.webp"}
               className="object-cover my-auto mr-10 w-16 h-16 hover:opacity-80"
               alt="twitter_share"
             />
