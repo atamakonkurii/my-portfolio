@@ -11,7 +11,7 @@ export const FloatingShareButton = () => {
         >
           <a>
             <img
-              src={"/img/Twitter social icons - circle - blue.png"}
+              src={"/img/Twitter social icons - circle - blue.webp"}
               className="object-cover my-auto w-10 h-10 sm:w-0 sm:h-0"
               alt="twitter_share"
             />

@@ -9,14 +9,14 @@ export const BuyMeThings = () => {
       <div className="pt-2 text-sm">
         <Plan
           price={"¥100"}
-          imageUrl={"/img/coffee01_blend.png"}
+          imageUrl={"/img/coffee01_blend.webp"}
           title={"コーヒー"}
           paymentLink={"https://buy.stripe.com/5kAbK48hY1Xa3gQ3cd"}
         />
         {/* <div className="pt-2">
           <Plan
             price={"¥1,000"}
-            imageUrl={"/img/food_beefsteak.png"}
+            imageUrl={"/img/food_beefsteak.webp"}
             title={"ランチ"}
             paymentLink={"https://buy.stripe.com/7sI6pK1TA0T63gQ4gi"}
           />
@@ -24,7 +24,7 @@ export const BuyMeThings = () => {
         <div className="pt-2">
           <Plan
             price={"¥3,000"}
-            imageUrl={"/img/book_yoko.png"}
+            imageUrl={"/img/book_yoko.webp"}
             title={"技術書"}
             paymentLink={"https://buy.stripe.com/fZe9BWdCi45icRq147"}
           />

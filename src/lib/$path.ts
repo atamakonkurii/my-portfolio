@@ -32,21 +32,21 @@ export const staticPath = {
   apple_touch_icon_png: '/apple-touch-icon.png',
   favicon_ico: '/favicon.ico',
   img: {
-    GitHub_Mark_32px_png: '/img/GitHub-Mark-32px.png',
+    GitHub_Mark_32px_webp: '/img/GitHub-Mark-32px.webp',
     LINE_APP_Android_webp: '/img/LINE_APP_Android.webp',
-    Twitter_social_icons___circle___blue_png: '/img/Twitter social icons - circle - blue.png',
-    book_yoko_png: '/img/book_yoko.png',
-    character_hitsuji_ookami_png: '/img/character_hitsuji_ookami.png',
-    coffee01_blend_png: '/img/coffee01_blend.png',
-    dog1_smile_png: '/img/dog1_smile.png',
-    food_beefsteak_png: '/img/food_beefsteak.png',
-    jamstack_stripe_logo_png: '/img/jamstack_stripe_logo.png',
-    my_image_jpg: '/img/my_image.jpg',
+    Twitter_social_icons___circle___blue_webp: '/img/Twitter social icons - circle - blue.webp',
+    book_yoko_webp: '/img/book_yoko.webp',
+    character_hitsuji_ookami_webp: '/img/character_hitsuji_ookami.webp',
+    coffee01_blend_webp: '/img/coffee01_blend.webp',
+    dog1_smile_webp: '/img/dog1_smile.webp',
+    food_beefsteak_webp: '/img/food_beefsteak.webp',
+    jamstack_stripe_logo_webp: '/img/jamstack_stripe_logo.webp',
+    my_image_webp: '/img/my_image.webp',
     ogp_png: '/img/ogp.png',
-    ojigi_animal_inu_png: '/img/ojigi_animal_inu.png',
+    ojigi_animal_inu_webp: '/img/ojigi_animal_inu.webp',
     ojigi_man_webp: '/img/ojigi_man.webp',
     travel_bus_train_couple_webp: '/img/travel_bus_train_couple.webp',
-    youtube_social_icon_red_png: '/img/youtube_social_icon_red.png'
+    youtube_social_icon_red_webp: '/img/youtube_social_icon_red.webp'
   },
   mockServiceWorker_js: '/mockServiceWorker.js'
 } as const

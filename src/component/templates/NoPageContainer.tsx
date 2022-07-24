@@ -5,7 +5,7 @@ export const NoPageContainer = () => {
         このページは作成中です。
       </div>
       <img
-        src={"/img/ojigi_animal_inu.png"}
+        src={"/img/ojigi_animal_inu.webp"}
         className="mx-auto"
         alt="inu"
         width={200}
