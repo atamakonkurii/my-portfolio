@@ -33,7 +33,7 @@ export const AboutAuthorElement = () => {
                 </a>
               </Link>
             </div>
-            <div>
+            {/* <div>
               <Link href={"https://www.youtube.com/c/atamakonkurii"}>
                 <a>
                   <img
@@ -43,7 +43,7 @@ export const AboutAuthorElement = () => {
                   />
                 </a>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
