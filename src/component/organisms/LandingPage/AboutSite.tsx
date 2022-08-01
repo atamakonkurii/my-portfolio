@@ -3,7 +3,6 @@
 import { SimpleLinkButton } from "src/component/atoms/Button/SimpleLinkButton";
 import { LandingPageTitle } from "src/component/atoms/Text/LandingPageTitle";
 import {
-  AboutSiteButtonLink,
   AboutSiteButtonText,
   BaseAboutSiteTitle,
 } from "src/constants/baseText";
@@ -32,7 +31,7 @@ export const AboutSite = () => {
       <div className="pt-8 text-center">
         <SimpleLinkButton
           text={AboutSiteButtonText}
-          href={AboutSiteButtonLink}
+          href={"https://zenn.dev/atakon/articles/ed433aa9554a12"}
         />
       </div>
     </div>
