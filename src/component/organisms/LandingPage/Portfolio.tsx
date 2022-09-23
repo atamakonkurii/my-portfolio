@@ -13,6 +13,14 @@ export const Portfolio = () => {
       <LandingPageTitle text={BasePortfolioTitle} />
       <div className="pt-4">
         <Work
+          text={"富士山のフリー素材サイト"}
+          imageUrl={"/img/fujisan.webp"}
+          title={"富士山ソムリエ(β版)"}
+          link={"https://github.com/atamakonkurii/photo-werewolf"}
+        />
+      </div>
+      <div className="pt-4">
+        <Work
           text={"スマホの画像で騙し合うゲーム"}
           imageUrl={"/img/character_hitsuji_ookami.webp"}
           title={"写真人狼(開発途中)"}
@@ -23,8 +31,8 @@ export const Portfolio = () => {
         <Work
           text={"日台情報を発信するブログ"}
           imageUrl={"/img/dog1_smile.webp"}
-          title={"日台one!"}
-          link={"https://nittai-one.com/"}
+          title={"【Close】日台one!"}
+          link={"https://qiita.com/atamakonkurii/items/8eb7f10bcfdb73324270"}
         />
       </div>
       <div className="pt-6 text-center">

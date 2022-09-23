@@ -40,6 +40,7 @@ export const staticPath = {
     coffee01_blend_webp: '/img/coffee01_blend.webp',
     dog1_smile_webp: '/img/dog1_smile.webp',
     food_beefsteak_webp: '/img/food_beefsteak.webp',
+    fujisan_webp: '/img/fujisan.webp',
     jamstack_stripe_logo_webp: '/img/jamstack_stripe_logo.webp',
     my_image_webp: '/img/my_image.webp',
     ogp_png: '/img/ogp.png',
