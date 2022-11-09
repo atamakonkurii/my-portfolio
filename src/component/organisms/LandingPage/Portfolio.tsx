@@ -16,7 +16,7 @@ export const Portfolio = () => {
           text={"富士山のフリー素材サイト"}
           imageUrl={"/img/fujisan.webp"}
           title={"富士山ソムリエ(β版)"}
-          link={"https://github.com/atamakonkurii/photo-werewolf"}
+          link={"https://fujisan-sommelier.vercel.app/"}
         />
       </div>
       <div className="pt-4">
