@@ -1,11 +1,11 @@
 import type { CustomNextPage } from "next";
 import { StandardLayout } from "src/component/layout/StandardLayout";
-import { ArigatouPage } from "src/pages/arigatou";
+import { PhotoWerewolfIndex } from "src/pages/products/photo_werewolf";
 
-const Arigatou: CustomNextPage = () => {
-  return <ArigatouPage />;
+const PhotoWerewolfPage: CustomNextPage = () => {
+  return <PhotoWerewolfIndex />;
 };
 
-Arigatou.getLayout = StandardLayout;
+PhotoWerewolfPage.getLayout = StandardLayout;
 
-export default Arigatou;
+export default PhotoWerewolfPage;

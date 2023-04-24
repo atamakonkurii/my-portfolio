@@ -22,9 +22,9 @@ export const Portfolio = () => {
       <div className="pt-4">
         <Work
           text={"スマホの画像で騙し合うゲーム"}
-          imageUrl={"/img/character_hitsuji_ookami.webp"}
+          imageUrl={"/img/photo_werewolf_icon.webp"}
           title={"写真人狼(開発途中)"}
-          link={"https://github.com/atamakonkurii/photo-werewolf"}
+          link={"/products/photo_werewolf"}
         />
       </div>
       <div className="pt-2">

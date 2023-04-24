@@ -54,6 +54,8 @@ export const staticPath = {
     ogp_png: '/img/ogp.png',
     ojigi_animal_inu_webp: '/img/ojigi_animal_inu.webp',
     ojigi_man_webp: '/img/ojigi_man.webp',
+    photo_werewolf_icon_webp: '/img/photo_werewolf_icon.webp',
+    photo_werewolf_summary_webp: '/img/photo_werewolf_summary.webp',
     travel_bus_train_couple_webp: '/img/travel_bus_train_couple.webp',
     youtube_social_icon_red_webp: '/img/youtube_social_icon_red.webp'
   },

@@ -29,3 +29,6 @@ export const PortfolioButtonLink = "https://github.com/atamakonkurii";
 
 // BuyMeThings
 export const BaseBuyMeThingsTitle = "おごりプラン";
+
+// 写真人狼
+export const PhotoWerewolfTitle = "写真人狼について";
