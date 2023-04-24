@@ -44,7 +44,6 @@ export const staticPath = {
     LINE_APP_Android_webp: '/img/LINE_APP_Android.webp',
     Twitter_social_icons___circle___blue_webp: '/img/Twitter social icons - circle - blue.webp',
     book_yoko_webp: '/img/book_yoko.webp',
-    character_hitsuji_ookami_webp: '/img/character_hitsuji_ookami.webp',
     coffee01_blend_webp: '/img/coffee01_blend.webp',
     dog1_smile_webp: '/img/dog1_smile.webp',
     food_beefsteak_webp: '/img/food_beefsteak.webp',
