@@ -17,6 +17,14 @@ export const pagesPath = {
   "privacy_policy": {
     $url: (url?: { hash?: string }) => ({ pathname: '/privacy_policy' as const, hash: url?.hash })
   },
+  "products": {
+    "photo_werewolf": {
+      "privacy_policy": {
+        $url: (url?: { hash?: string }) => ({ pathname: '/products/photo_werewolf/privacy_policy' as const, hash: url?.hash })
+      },
+      $url: (url?: { hash?: string }) => ({ pathname: '/products/photo_werewolf' as const, hash: url?.hash })
+    }
+  },
   "specific_commercial_transaction": {
     $url: (url?: { hash?: string }) => ({ pathname: '/specific_commercial_transaction' as const, hash: url?.hash })
   },
