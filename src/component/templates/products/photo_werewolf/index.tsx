@@ -11,11 +11,21 @@ export const PhotoWerewolf = () => {
       <div>
         <img src="/img/photo_werewolf_icon.webp" className="pt-4 mx-auto" />
       </div>
+
       <div className="pt-8 text-lg font-bold">
         <p>ご自身のスマホの写真を使って騙し合う、新感覚の人狼ゲーム!</p>
         <p>
           気心知れた友達と遊ぶのはもちろん、関係性がまだ構築できていな歓迎会や初対面で遊んでも盛り上がります！
         </p>
+      </div>
+      <div className="pt-8">
+        <Link
+          href={
+            "https://apps.apple.com/jp/app/%E5%86%99%E7%9C%9F%E4%BA%BA%E7%8B%BC/id6448245862"
+          }
+        >
+          <img src="/img/App_Store_Badge.png" className="mx-auto" />
+        </Link>
       </div>
       <div className="pt-4">
         <p className="py-2"># ルール概要</p>
@@ -31,6 +41,7 @@ export const PhotoWerewolf = () => {
       <div>
         <img src="/img/photo_werewolf_summary.webp" className="pt-4 mx-auto" />
       </div>
+
       <div className="pt-8">
         <Link href={"/products/photo_werewolf/privacy_policy"}>
           <a className="py-3 text-blue-500">{"プライバシーポリシー"}</a>
