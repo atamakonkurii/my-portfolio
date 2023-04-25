@@ -63,9 +63,9 @@ export const AboutAuthorElement = () => {
         使ったことがある技術 • サービス
       </p>
       <p className="pt-1 text-sm">
-        Rails / Next.js / TypeScript / SwiftUI / AWS / GCP / firebase / supabase
-        / PlanetScale / Cloudflare / Vercel / microCMS / Stripe / GitHub Actions
-        / Cypress / Figma...
+        Rails / Next.js / TypeScript / Swift / Kotlin / AWS / GCP / firebase /
+        supabase / PlanetScale / Cloudflare / Vercel / microCMS / Stripe /
+        GitHub Actions / Cypress / Figma...
       </p>
     </div>
   );

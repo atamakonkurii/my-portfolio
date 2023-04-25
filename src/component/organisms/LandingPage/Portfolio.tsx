@@ -13,18 +13,18 @@ export const Portfolio = () => {
       <LandingPageTitle text={BasePortfolioTitle} />
       <div className="pt-4">
         <Work
-          text={"富士山のフリー素材サイト"}
-          imageUrl={"/img/fujisan.webp"}
-          title={"富士山ソムリエ(β版)"}
-          link={"https://fujisan-sommelier.vercel.app/"}
+          text={"スマホの画像で騙し合うゲーム"}
+          imageUrl={"/img/photo_werewolf_icon.webp"}
+          title={"写真人狼"}
+          link={"/products/photo_werewolf"}
         />
       </div>
       <div className="pt-4">
         <Work
-          text={"スマホの画像で騙し合うゲーム"}
-          imageUrl={"/img/photo_werewolf_icon.webp"}
-          title={"写真人狼(開発途中)"}
-          link={"/products/photo_werewolf"}
+          text={"富士山のフリー素材サイト"}
+          imageUrl={"/img/fujisan.webp"}
+          title={"富士山ソムリエ(β版)"}
+          link={"https://fujisan-sommelier.vercel.app/"}
         />
       </div>
       <div className="pt-2">
