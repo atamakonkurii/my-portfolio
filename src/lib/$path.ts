@@ -40,6 +40,7 @@ export const staticPath = {
   apple_touch_icon_png: '/apple-touch-icon.png',
   favicon_ico: '/favicon.ico',
   img: {
+    App_Store_Badge_png: '/img/App_Store_Badge.png',
     GitHub_Mark_32px_webp: '/img/GitHub-Mark-32px.webp',
     LINE_APP_Android_webp: '/img/LINE_APP_Android.webp',
     Twitter_social_icons___circle___blue_webp: '/img/Twitter social icons - circle - blue.webp',
