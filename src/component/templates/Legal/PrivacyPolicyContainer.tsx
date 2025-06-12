@@ -71,7 +71,7 @@ export const PrivacyPolicyContainer = () => {
       <h2 className="mt-16 mb-2 text-xl font-semibold">事業者の氏名</h2>
       <p>太田 和希</p>
       <h2 className="mt-6 mb-2 text-xl font-semibold">事業者の住所</h2>
-      <p>愛知県名古屋市瑞穂区花目町2-16-1LaBala堀田</p>
+      <p>東京都葛飾区東立石3-22-3</p>
       <p>2022年06月27日</p>
     </div>
   );

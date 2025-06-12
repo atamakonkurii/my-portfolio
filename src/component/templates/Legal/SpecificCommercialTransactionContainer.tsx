@@ -8,8 +8,8 @@ export const SpecificCommercialTransactionContainer = () => {
       <p className="ml-4">太田和希</p>
       <h2 className="mt-10 mb-2 text-xl font-semibold">事業者の所在</h2>
       <div className="ml-4">
-        <p>〒467-0837</p>
-        <p>愛知県名古屋市瑞穂区花目町2-16-1 LaBala堀田</p>
+        <p>〒124-0013</p>
+        <p>東京都葛飾区東立石3-22-3</p>
         <p>
           ※電話番号開示を希望される場合はご連絡いただければ遅延なく開示いたします。
         </p>
