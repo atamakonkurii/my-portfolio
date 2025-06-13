@@ -9,7 +9,7 @@ export const fetchNewsIndexAtLp200Handler = rest.get(
         contents: [
           {
             id: "qtht21352",
-            title: "200円おごっていただきました！",
+            title: "新しいプロジェクトを開始しました！",
             publishedAt: "2022-06-29T12:40:06.805Z",
             category: {
               name: "お知せ",
@@ -37,7 +37,7 @@ export const fetchNewsIndex200Handler = rest.get(
             updatedAt: "2022-06-29T12:40:28.877Z",
             publishedAt: "2022-06-29T12:40:06.805Z",
             revisedAt: "2022-06-29T12:40:28.877Z",
-            title: "初売上！合計400円おごっていただきました！",
+            title: "ポートフォリオサイトをリニューアルしました！",
             category: {
               id: "5q5bpy18sj",
               createdAt: "2022-05-26T14:27:27.918Z",
@@ -47,7 +47,7 @@ export const fetchNewsIndex200Handler = rest.get(
               name: "お知らせ",
             },
             content:
-              "本日3人の方から合計300円おごっていただきました！\n初めての売上、とても嬉しいです。\nこれからも頑張っておもしろいものを開発していきます！",
+              "ポートフォリオサイトのデザインを一新しました！\nより見やすく、使いやすくなりました。\nこれからも頑張っておもしろいものを開発していきます！",
           },
           {
             id: "0wnpekb-k6",

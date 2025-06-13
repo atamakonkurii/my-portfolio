@@ -58,10 +58,9 @@ export const AboutAuthorElement = () => {
       <p className="text-sm">
         2020.4 自動車部品メーカー入社（電気系エンジニア）
       </p>
+      <p className="text-sm">2020.10 YouTubeチャンネル開設</p>
       <p className="text-sm">2021.5 ITベンチャーに転職(Webエンジニア)</p>
-      <p className="pt-6 text-lg font-medium">
-        使ったことがある技術 • サービス
-      </p>
+      <p className="pt-6 text-lg font-medium">使える技術 • サービス</p>
       <p className="pt-1 text-sm">
         Rails / Next.js / TypeScript / Swift / Kotlin / Go / GraphQL / Docker /
         Terraform / AWS / GCP / firebase / supabase / PlanetScale / Cloudflare /

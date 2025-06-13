@@ -1,12 +1,15 @@
-# おごってください！
+# KAZUKI OHTA Portfolio
 
-### Keywords
+エンジニア KAZUKI OHTA のポートフォリオサイト
+
+### Tech Stack
 
 - Next.js
+- TypeScript
+- Tailwind CSS
 - Jamstack
 - Cloudflare Pages
 - microCMS
-- Stripe Payment Links
 
 ### Zenn 記事
 

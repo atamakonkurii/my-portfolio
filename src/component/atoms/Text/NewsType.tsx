@@ -2,33 +2,35 @@ type Props = {
   typeOfNews: string;
 };
 
-const newsTypeColor = (typeOfNews: string) => {
-  let bgColor;
+const newsTypeStyle = (typeOfNews: string) => {
+  let style;
   switch (typeOfNews) {
     case "新機能":
-      bgColor = "bg-amber-600";
+      style = "bg-amber-100 text-amber-800 border-amber-300";
       break;
     case "障害":
-      bgColor = "bg-red-600";
+      style = "bg-red-100 text-red-800 border-red-300";
       break;
     case "お知らせ":
-      bgColor = "bg-blue-500";
+      style = "bg-blue-100 text-blue-800 border-blue-300";
       break;
     default:
-      bgColor = "bg-neutral-700";
+      style = "bg-gray-100 text-gray-800 border-gray-300";
       break;
   }
 
-  return bgColor;
+  return style;
 };
 
 export const NewsType = (props: Props) => {
   const { typeOfNews } = props;
-  const bgColor = newsTypeColor(typeOfNews);
+  const style = newsTypeStyle(typeOfNews);
 
   return (
-    <div className={`text-white ${bgColor} rounded w-16 flex`}>
-      <p className="py-0.5 mx-auto text-xs font-semibold">{typeOfNews}</p>
+    <div
+      className={`${style} px-3 py-1 rounded-full text-xs font-bold border inline-flex items-center`}
+    >
+      <span>{typeOfNews}</span>
     </div>
   );
 };
