@@ -33,7 +33,7 @@ export const LandingPage: FC<Props> = (props) => {
             {/* Badge */}
             <div className="inline-flex items-center py-2 px-4 bg-white/80 rounded-full border border-blue-200 shadow-lg backdrop-blur-sm animate-fadeInUp">
               <span className="text-sm font-medium text-blue-700">
-                🎬 Content Creator & Developer
+                🎬 Content Creator & Web Developer
               </span>
             </div>
 
