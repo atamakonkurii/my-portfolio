@@ -55,6 +55,21 @@ export const LandingPage: FC<Props> = (props) => {
               <p className="mx-auto max-w-2xl text-lg leading-relaxed text-neutral-600 md:text-xl">
                 日台夫婦系YouTuberとして動画投稿・Web開発を行っています
               </p>
+
+              {/* Chinese Study Note */}
+              <div className="inline-block relative mt-6">
+                <div className="group inline-flex relative items-center py-1.5 px-3 bg-amber-50/80 rounded-lg border border-amber-200/60 backdrop-blur-sm transition-transform duration-300 rotate-1 hover:rotate-0">
+                  <span className="mr-2 text-xs font-medium text-amber-700">
+                    📝
+                  </span>
+                  <span className="text-xs text-amber-800">
+                    現在中国語勉強中！
+                  </span>
+                  <div className="absolute -right-1 -bottom-1 w-3 h-3 bg-amber-300 rounded-full opacity-60"></div>
+                </div>
+                {/* Pin/Tape effect */}
+                <div className="absolute -top-1 left-1/3 w-4 h-2 bg-yellow-200/70 rounded-sm -rotate-12"></div>
+              </div>
             </div>
 
             {/* Video Section */}
