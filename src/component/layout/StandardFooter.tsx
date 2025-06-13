@@ -30,12 +30,6 @@ export const StandardFooter: FC = () => {
           </Link>
         </div>
 
-        <div className="pt-4">
-          <Link href="/specific_commercial_transaction">
-            <a>特定商取引法に基づく表記</a>
-          </Link>
-        </div>
-
         {/* SNSシェアのアイコンでfooterが隠れるのでpaddingを使う */}
         <div className="pt-12 sm:pt-0"></div>
 

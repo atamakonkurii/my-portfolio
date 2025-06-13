@@ -21,9 +21,7 @@ export const Portfolio = () => {
       </div>
       <div className="pt-4">
         <Work
-          text={
-            "富士山のフリー素材サイト(PlanetScaleをDBに使っており、Sleepしていた場合は表示がされません。)"
-          }
+          text={"富士山のフリー素材サイト"}
           imageUrl={"/img/fujisan.webp"}
           title={"富士山ソムリエ(β版)"}
           link={"https://fujisan-sommelier.vercel.app/"}

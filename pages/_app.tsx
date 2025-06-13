@@ -22,16 +22,10 @@ const App: CustomAppPage = ({ Component, pageProps }) => {
     <>
       <GoogleAnalytics />
       <Head>
-        <title>おごってください！</title>
-        <meta property="og:title" content="おごってください！" />
-        <meta
-          property="og:description"
-          content="おごられたいを前面に出したポートフォリオサイト"
-        />
-        <meta
-          property="og:image"
-          content="https://kazukiohta.com/img/ogp.png"
-        />
+        <title>自己紹介</title>
+        <meta property="og:title" content="自己紹介！" />
+        <meta property="og:description" content="自己紹介" />
+        <meta property="og:image" content="" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="theme-color" content="#334155" />
         <link
