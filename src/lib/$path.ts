@@ -2,9 +2,6 @@ export const pagesPath = {
   "about_author": {
     $url: (url?: { hash?: string }) => ({ pathname: '/about_author' as const, hash: url?.hash })
   },
-  "arigatou": {
-    $url: (url?: { hash?: string }) => ({ pathname: '/arigatou' as const, hash: url?.hash })
-  },
   "news": {
     _id: (id: string | number) => ({
       $url: (url?: { hash?: string }) => ({ pathname: '/news/[id]' as const, query: { id }, hash: url?.hash })
