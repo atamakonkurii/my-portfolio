@@ -11,17 +11,18 @@ export const Work = (props: Props) => {
   const { imageUrl, link, text, title } = props;
   return (
     <Link href={link}>
-      <a>
-        <div className="flex mx-auto max-w-md h-32 bg-white rounded-lg shadow-sm">
+      <a className="block">
+        <div className="game-card h-full flex items-center space-x-4 hover:scale-105 transition-transform duration-300">
           <img
             src={imageUrl}
-            className="object-cover my-auto ml-6 w-28 h-28"
+            className="w-24 h-24 rounded-lg object-cover"
             alt=""
           />
-          <div className="mt-4 ml-4">
-            <p className="text-2xl font-semibold">{title}</p>
-            <p className="pt-1 text-sm">{text}</p>
+          <div className="flex-1">
+            <p className="text-xl font-bold mb-1">{title}</p>
+            <p className="text-gray-600 text-sm">{text}</p>
           </div>
+          <div className="text-2xl">→</div>
         </div>
       </a>
     </Link>

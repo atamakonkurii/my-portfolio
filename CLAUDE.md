@@ -87,4 +87,4 @@ The codebase follows a hybrid structure combining Next.js conventions with Atomi
 - The site is optimized for static hosting on Cloudflare Pages
 - All data fetching happens at build time (no client-side API calls)
 - The project name "nexst-tailwind" is historical; this is a portfolio site
-- Stripe Payment Links are used for the "おごる" (treat/donate) feature
+- Contact forms are integrated via Google Forms for inquiries

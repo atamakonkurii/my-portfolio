@@ -5,9 +5,9 @@ import { StandardHeader } from "src/component/layout/StandardHeader";
 
 export const StandardLayout: CustomLayout = (page) => {
   return (
-    <div>
+    <div className="min-h-screen flex flex-col">
       <StandardHeader />
-      <main>{page}</main>
+      <main className="flex-grow pt-16">{page}</main>
       <StandardFooter />
     </div>
   );

@@ -1,7 +1,7 @@
 // FirstView
 export const BaseFirstViewSmallText =
-  "おごられたいを前面に出したポートフォリオサイト";
-export const BaseCTAButtonText = "とりあえずおごる！";
+  "エンジニアKAZUKI OHTAのポートフォリオサイト";
+export const BaseCTAButtonText = "お問い合わせ";
 
 // News
 export const BaseNewsDate = "2022-06-29T12:40:06.805Z";
@@ -27,8 +27,8 @@ export const BasePortfolioTitle = "今までの作品";
 export const PortfolioButtonText = "もっとみる";
 export const PortfolioButtonLink = "https://github.com/atamakonkurii";
 
-// BuyMeThings
-export const BaseBuyMeThingsTitle = "おごりプラン";
+// Contact
+export const BaseContactTitle = "お問い合わせ";
 
 // 写真人狼
 export const PhotoWerewolfTitle = "写真人狼について";

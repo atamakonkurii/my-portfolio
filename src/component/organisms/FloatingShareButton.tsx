@@ -6,7 +6,7 @@ export const FloatingShareButton = () => {
       <div className="fixed bottom-8 left-6">
         <Link
           href={
-            "https://twitter.com/share?&text=このポートフォリオサイト作った人すごくて才能に嫉妬する💢👊%0aWebエンジニア界の大谷翔平って感じ、、、%0a%23おごってください&url=https://kazukiohta.com"
+            "https://twitter.com/share?&text=すごいポートフォリオサイトを見つけました！%0aKAZUKI OHTAさんのWeb開発スキルが素晴らしいです👨‍💻✨&url=https://kazukiohta.com"
           }
         >
           <a>
