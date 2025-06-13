@@ -38,8 +38,26 @@ export const LandingPage: FC<Props> = (props) => {
               className="flex items-center space-x-2 text-red-600 hover:text-red-700 transition-colors duration-300"
             >
               <div className="text-3xl">📺</div>
-              <span className="font-semibold">YouTube Channel</span>
+              <span className="font-semibold">日台one! チャンネル</span>
             </a>
+          </div>
+
+          {/* YouTube Video Embed */}
+          <div className="mx-auto mt-12 max-w-2xl">
+            <div className="p-6 bg-white rounded-2xl shadow-lg">
+              <h3 className="mb-4 text-xl font-bold text-center text-gray-800">
+                📹 最新動画
+              </h3>
+              <div className="aspect-video relative">
+                <iframe
+                  src="https://www.youtube.com/embed/LyHrGwFzO0c?autoplay=1&mute=1"
+                  title="日台one! 最新動画"
+                  className="w-full h-full rounded-xl"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </section>

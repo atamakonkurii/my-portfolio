@@ -12,15 +12,15 @@ export const Work = (props: Props) => {
   return (
     <Link href={link}>
       <a className="block">
-        <div className="game-card h-full flex items-center space-x-4 hover:scale-105 transition-transform duration-300">
+        <div className="flex items-center space-x-4 h-full transition-transform duration-300 hover:scale-105 game-card">
           <img
             src={imageUrl}
-            className="w-24 h-24 rounded-lg object-cover"
+            className="object-cover w-24 h-24 rounded-lg"
             alt=""
           />
           <div className="flex-1">
-            <p className="text-xl font-bold mb-1">{title}</p>
-            <p className="text-gray-600 text-sm">{text}</p>
+            <p className="mb-1 text-xl font-bold">{title}</p>
+            <p className="text-sm text-gray-600">{text}</p>
           </div>
           <div className="text-2xl">→</div>
         </div>
