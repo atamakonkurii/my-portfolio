@@ -49,7 +49,7 @@ export const AboutAuthorElement = () => {
       </div>
       <p className="pt-2 text-base font-medium">Webエンジニア / YouTuber</p>
       <p className="pt-4 text-sm">
-        静岡県出身。大学院時代に国際交流を目的に行ったチューター業務（留学生のお世話係）でお世話した台湾人彼女とお付き合いしております。
+        静岡県出身。大学院時代に国際交流を目的に行ったチューター業務（留学生のお世話係）でお世話した台湾人彼女と結婚しました。
       </p>
       <p className="pt-4 text-lg font-medium">略歴</p>
       <p className="text-sm">2016.3 沼津高専卒</p>
@@ -63,9 +63,10 @@ export const AboutAuthorElement = () => {
         使ったことがある技術 • サービス
       </p>
       <p className="pt-1 text-sm">
-        Rails / Next.js / TypeScript / Swift / Kotlin / AWS / GCP / firebase /
-        supabase / PlanetScale / Cloudflare / Vercel / microCMS / Stripe /
-        GitHub Actions / Cypress / Figma...
+        Rails / Next.js / TypeScript / Swift / Kotlin / Go / GraphQL / Docker /
+        Terraform / AWS / GCP / firebase / supabase / PlanetScale / Cloudflare /
+        Vercel / microCMS / Stripe / GitHub Actions / Cypress / Figma / OpenAI
+        API / Claude Code ...
       </p>
     </div>
   );

@@ -18,7 +18,7 @@ export const AboutSiteButtonText = "もう少し詳しく";
 export const AboutSiteButtonLink = "/no_page";
 
 // AboutAuthor
-export const BaseAboutAuthorTitle = "作者について";
+export const BaseAboutAuthorTitle = "自己紹介";
 export const AboutAuthorButtonText = "もう少し詳しく";
 export const AboutAuthorButtonLink = "/no_page";
 

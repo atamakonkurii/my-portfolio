@@ -1,1 +1,0 @@
-export { FirstViewSmallText } from "./FirstViewSmallText";
