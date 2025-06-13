@@ -16,7 +16,7 @@ export const LpNews: FC<Props> = (props) => {
   const date = rawDateToYearMonthDay(landingPageNews.publishedAt);
   return (
     <div>
-      <div className="transform transition-transform hover:scale-105">
+      <div className="transition-transform hover:scale-105">
         <NewsElement
           id={landingPageNews.id}
           date={date || BaseNewsDate}
@@ -26,9 +26,8 @@ export const LpNews: FC<Props> = (props) => {
       </div>
       <div className="flex justify-center mt-6">
         <Link href="/news">
-          <a className="text-gray-600 hover:text-gameAccent transition-colors duration-300 flex items-center space-x-2">
-            <span>過去のクエスト記録を見る</span>
-            <span className="text-xl">→</span>
+          <a className="text-gray-600 hover:text-gameAccent transition-colors duration-300">
+            過去のお知らせを見る
           </a>
         </Link>
       </div>

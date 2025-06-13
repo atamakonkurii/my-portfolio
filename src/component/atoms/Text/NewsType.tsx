@@ -27,8 +27,9 @@ export const NewsType = (props: Props) => {
   const style = newsTypeStyle(typeOfNews);
 
   return (
-    <div className={`${style} px-3 py-1 rounded-full text-xs font-bold border inline-flex items-center`}>
-      <span className="mr-1">•</span>
+    <div
+      className={`${style} px-3 py-1 rounded-full text-xs font-bold border inline-flex items-center`}
+    >
       <span>{typeOfNews}</span>
     </div>
   );

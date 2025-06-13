@@ -10,9 +10,7 @@ export const SimpleLinkButton = (props: Props) => {
   return (
     <div className="inline-block">
       <Link href={href}>
-        <a className="game-button">
-          {text}
-        </a>
+        <a className="game-button">{text}</a>
       </Link>
     </div>
   );

@@ -6,19 +6,20 @@ import { rawDateToYearMonthDay } from "src/utils/dateFormatter";
 export const IndexNewsContainer: FC<NewsArrayResponse> = (props) => {
   const newsResponse = props;
   return (
-    <div className="container py-16 mx-auto w-11/12 max-w-lg">
-      <div className="flex justify-center text-3xl font-bold">お知らせ</div>
-      <div className="mt-8 divide-y divide-slate-300">
+    <div className="container py-16 mx-auto w-11/12 max-w-3xl">
+      <div className="flex justify-center mb-8 text-3xl font-bold">
+        お知らせ
+      </div>
+      <div className="space-y-0">
         {newsResponse.news.map((news: NewsResponse) => {
           return (
-            <div key={news.id} className="flex items-center px-3 h-20">
-              <NewsElement
-                id={news.id}
-                date={rawDateToYearMonthDay(news.publishedAt)}
-                typeOfNews={news.category.name}
-                title={news.title}
-              />
-            </div>
+            <NewsElement
+              key={news.id}
+              id={news.id}
+              date={rawDateToYearMonthDay(news.publishedAt)}
+              typeOfNews={news.category.name}
+              title={news.title}
+            />
           );
         })}
       </div>
