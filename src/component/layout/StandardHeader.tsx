@@ -21,7 +21,7 @@ export const StandardHeader: FC = () => {
             href="/"
             className="text-xl font-bold hover:text-gameAccent transition-colors duration-300"
           >
-            KAZUKI OHTA
+            👨‍💻🎥♟️🇯🇵🇹🇼👶👩
           </Link>
 
           {/* Desktop Navigation */}
@@ -49,7 +49,7 @@ export const StandardHeader: FC = () => {
 
           {/* Mobile menu button */}
           <button
-            className="p-2 text-gray-600 hover:text-gameAccent md:hidden"
+            className="p-2 text-gray-600 hover:text-gray-800 focus:outline-none md:hidden"
             onClick={toggleMenu}
             aria-label="Toggle menu"
           >
@@ -81,17 +81,17 @@ export const StandardHeader: FC = () => {
         {/* Mobile Navigation Menu */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-white/95 border-t border-gray-100 backdrop-blur-sm">
+            <div className="flex flex-col px-2 pt-2 pb-3 space-y-3 bg-white/95 border-t border-gray-100 backdrop-blur-sm">
               <Link
                 href="/#about"
-                className="block py-2 px-3 text-gray-600 hover:text-gameAccent hover:bg-gray-50 rounded-md transition-colors duration-300"
+                className="block py-3 px-4 w-full text-center text-gray-600 hover:text-gameAccent hover:bg-gray-50 rounded-md transition-colors duration-300"
                 onClick={closeMenu}
               >
                 About
               </Link>
               <Link
                 href="/news"
-                className="block py-2 px-3 text-gray-600 hover:text-gameAccent hover:bg-gray-50 rounded-md transition-colors duration-300"
+                className="block py-3 px-4 w-full text-center text-gray-600 hover:text-gameAccent hover:bg-gray-50 rounded-md transition-colors duration-300"
                 onClick={closeMenu}
               >
                 News
@@ -99,7 +99,7 @@ export const StandardHeader: FC = () => {
               <Link
                 href="https://forms.gle/Y9EcWWkQdEh2Vf1x5"
                 target="_blank"
-                className="block py-2 px-3 font-semibold text-gameAccent hover:bg-gray-50 rounded-md transition-colors duration-300"
+                className="block py-3 px-4 w-full font-semibold text-center text-gameAccent hover:bg-gray-50 rounded-md transition-colors duration-300"
                 onClick={closeMenu}
               >
                 Contact
